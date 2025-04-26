@@ -61,6 +61,15 @@
     "onboarding.tips.debug.path": "C:/Users/Kostya/IdeaProjects/KotlinSprintTasks/src/main/kotlin/Main.kt"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Kostya\IdeaProjects\KotlinSprintTasks\src" />
+      <recent name="C:\Users\Kostya\IdeaProjects\KotlinSprintTasks\.gradle" />
+    </key>
+    <key name="K2MoveDeclarationsDialog.RECENT_PACKAGE_KEY">
+      <recent name="org.example.lesson_1" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="Task_2Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.lesson_1.Task_2Kt" />
