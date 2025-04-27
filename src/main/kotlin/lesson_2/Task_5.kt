@@ -1,5 +1,7 @@
 package org.example.lesson_2
 
+import kotlin.math.pow
+
 /*Напиши программу-калькулятор для банковского приложения (такой функционал бывает на промо экранах).
 Используя формулу сложных процентов (ее можно загуглить), нужно посчитать размер вклада через 20 лет с такими условиями:
 
@@ -14,7 +16,7 @@ package org.example.lesson_2
 
 S — будущая стоимость вклада или кредита
 P — начальная сумма вклада или кредита 70_000
-r — годовая процентная ставка (в долях единицы) 16,7%
+r — годовая процентная ставка (в долях единицы) 16,7% == 0,167
 n — число периодов начисления процентов в году 1
 t — срок вклада или кредита в годах 20
  */
@@ -27,8 +29,9 @@ fun main() {
         val numberOfCharges = 1
         val depositPeriod = 20
 
-    finalContribution = initialContribution * (1 + depositInterest / numberOfCharges) * numberOfCharges * depositPeriod
-
+    finalContribution = initialContribution * (1 + depositInterest / numberOfCharges) *  depositPeriod
 
     println("$finalContribution")
+
+    //Ответ близок к условиям, но не точно по заданию, думаю проблема в вариантах формул(перепробовал 3 - эта наиболее близка)
 }
