@@ -12,8 +12,9 @@ package org.example.lesson_2
 fun main() {
     val crystalOre = 7
     val ironOre = 11
-    // +20% от 100% --> как x/5
 
-    println("кристаллическая руда с баффом: ${crystalOre / 5}")
-    println("железная рудаа с баффом: ${ironOre / 5}")
+
+    println("кристаллическая руда с баффом: ${crystalOre / ADDITIONAL_BAFF}")
+    println("железная рудаа с баффом: ${ironOre / ADDITIONAL_BAFF}")
 }
+const val ADDITIONAL_BAFF  = 5
