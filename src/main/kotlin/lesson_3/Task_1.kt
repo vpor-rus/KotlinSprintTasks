@@ -1,7 +1,5 @@
 package org.example.lesson_3
 
-import java.time.Clock
-
 /*При входе в приложение высвечивается приветствие. Представим, что мы пишем функцию,
  которая будет выводить приветствие с именем пользователя на экран (в нашем случае в консоль).
  Tекст приветствия может меняться в зависимости от времени суток.
@@ -13,9 +11,9 @@ import java.time.Clock
 fun main() {
     val greeting: String
     val name = "Kind man"
-    val dayGreeting = "Good afternoon,"
-    val eveningGreeting = "Good evening,"
 
-    println("$dayGreeting $name")
-    println("$eveningGreeting $name")
+    println("$DAY_GREETING $name")
+    println("$EVENING_GREETING $name")
 }
+const val DAY_GREETING = "Good afternoon,"
+const val EVENING_GREETING = "Good evening,"
