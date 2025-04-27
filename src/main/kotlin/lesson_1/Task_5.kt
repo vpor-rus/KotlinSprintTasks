@@ -13,14 +13,17 @@ import java.text.DecimalFormat
 */
 
 fun main () {
-    val seconds = 6_480
-    val minutes = seconds / 60
-    val hours = seconds / 3600
-    val remainingSeconds = seconds - (minutes * 60)
+
+    val minutes = SECOND / 60
+    val hours = SECOND / 3600
+    val remainingSeconds = SECOND - (minutes * 60)
     val remainingMinutes = minutes - (hours * 60)
 
     val decimalFormat = DecimalFormat("#00")
 
     println ("${decimalFormat.format(hours)}:${decimalFormat.format(remainingMinutes)}:${
         decimalFormat.format(remainingSeconds)}")
+
+        //println("%02d:%02d:%02d".format(hours, minutes, seconds))
 }
+const val SECOND = 6_480
