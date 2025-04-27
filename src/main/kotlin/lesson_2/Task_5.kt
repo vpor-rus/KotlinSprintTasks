@@ -10,7 +10,7 @@ package org.example.lesson_2
  – Результат должен быть дробным числом с 3 знаками после разделителя;
  – Ответ должен получиться таким 1536438.428.
 
- Общая формула для расчёта суммы при сложном проценте: S = P ⋅ (1 + r / n) n ⋅ t, где: 1
+ Общая формула для расчёта суммы при сложном проценте: S = P ⋅ (1 + r / n) n ⋅ t
 
 S — будущая стоимость вклада или кредита
 P — начальная сумма вклада или кредита 70_000
@@ -23,7 +23,7 @@ fun main() {
 
         val finalContribution: Double
         val initialContribution = 70_000
-        val depositInterest = 16.7
+        val depositInterest = 0.167
         val numberOfCharges = 1
         val depositPeriod = 20
 
