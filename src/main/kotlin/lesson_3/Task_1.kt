@@ -11,9 +11,10 @@ package org.example.lesson_3
 fun main() {
     val greeting: String
     val name = "Kind man"
+    val dayGreeting = "Good afternoon,"
+    val eveningGreeting = "Good evening,"
 
-    println("$DAY_GREETING $name")
-    println("$EVENING_GREETING $name")
+    println("$dayGreeting $name")
+    println("$eveningGreeting $name")
 }
-const val DAY_GREETING = "Good afternoon,"
-const val EVENING_GREETING = "Good evening,"
+
