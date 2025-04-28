@@ -8,13 +8,15 @@ package org.example.lesson_2
  – Выведи результат в консоль.*/
 
 fun main() {
+    val hourStart = 9
+    val minutesStart = 39
+    val travelInTime = 457
 
-    val startTimeInMinutes = (HOUR_START * 60) + MINUTES_START
+    val startTimeInMinutes = (hourStart * MINUTES_VS_HOUR) + minutesStart
 
-    val finishTimeInMinutes = startTimeInMinutes + TRAVEL_TIME_MINUTES
+    val finishTimeInMinutes = startTimeInMinutes + travelInTime
 
-    println("${finishTimeInMinutes / 60}:${finishTimeInMinutes % 60}")
+    println("${finishTimeInMinutes / MINUTES_VS_HOUR}:${finishTimeInMinutes % MINUTES_VS_HOUR}")
 }
-const val HOUR_START = 9
-const val MINUTES_START = 39
-const val TRAVEL_TIME_MINUTES = 457
+const val MINUTES_VS_HOUR = 60
+
