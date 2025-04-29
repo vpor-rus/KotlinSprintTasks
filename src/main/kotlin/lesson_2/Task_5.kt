@@ -30,8 +30,6 @@ fun main() {
     finalContribution = initialContribution * (1 + DEPOSIT_INTEREST / NUMBER_OF_CHARGES).pow(depositPeriod)
 
     println("%.3f".format(finalContribution))
-
-    //Ответ близок к условиям, но не точно по заданию, думаю проблема в вариантах формул(перепробовал 3 - эта наиболее близка)
 }
 const val DEPOSIT_INTEREST = 0.167
 const val NUMBER_OF_CHARGES = 1
