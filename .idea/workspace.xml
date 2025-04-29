@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f577f977-06e1-49cb-92ae-2403e5cc9438" name="Changes" comment="KST-3-3 multiplication table" />
+    <list default="true" id="f577f977-06e1-49cb-92ae-2403e5cc9438" name="Changes" comment="KST-3-2 change name">
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/lesson_3/Task_4.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -73,6 +76,7 @@
     "Kotlin.Task_2Kt (1).executor": "Run",
     "Kotlin.Task_2Kt.executor": "Run",
     "Kotlin.Task_3Kt (1).executor": "Run",
+    "Kotlin.Task_4Kt.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
@@ -90,7 +94,7 @@
       <recent name="org.example.lesson_1" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin.Task_2Kt (1)">
+  <component name="RunManager" selected="Kotlin.Task_4Kt">
     <configuration name="Task_2Kt (1)" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.lesson_3.Task_2Kt" />
       <module name="KotlinSprintTasks.main" />
@@ -119,13 +123,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Task_4Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.lesson_3.Task_4Kt" />
+      <module name="KotlinSprintTasks.main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.Task_4Kt" />
         <item itemvalue="Kotlin.Task_3Kt (1)" />
         <item itemvalue="Kotlin.Task_3Kt" />
         <item itemvalue="Kotlin.Task_2Kt (1)" />
         <item itemvalue="Kotlin.Task_2Kt" />
-        <item itemvalue="Kotlin.Task_3Kt (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -185,7 +196,15 @@
       <option name="project" value="LOCAL" />
       <updated>1745899403986</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="KST-3-2 change name">
+      <option name="closed" value="true" />
+      <created>1745899534798</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1745899534798</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
