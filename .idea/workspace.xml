@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f577f977-06e1-49cb-92ae-2403e5cc9438" name="Changes" comment="KST-3-3 multiplication table" />
+    <list default="true" id="f577f977-06e1-49cb-92ae-2403e5cc9438" name="Changes" comment="KST-3-3 multiplication table">
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/lesson_3/Task_5.kt" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -42,7 +44,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="KST-3-3-multiplication-table" />
+        <entry key="$PROJECT_DIR$" value="KS-3-4-chess" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -67,20 +69,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Gradle.Build KotlinSprintTasks.executor": "Run",
-    "Kotlin.Task_2Kt (1).executor": "Run",
-    "Kotlin.Task_2Kt.executor": "Run",
-    "Kotlin.Task_3Kt (1).executor": "Run",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "#14 on master",
-    "onboarding.tips.debug.path": "C:/Users/Kostya/IdeaProjects/KotlinSprintTasks/src/main/kotlin/Main.kt",
-    "settings.editor.selected.configurable": "reference.settingsdialog.project.gradle"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Gradle.Build KotlinSprintTasks.executor&quot;: &quot;Run&quot;,
+    &quot;Kotlin.Task_2Kt (1).executor&quot;: &quot;Run&quot;,
+    &quot;Kotlin.Task_2Kt.executor&quot;: &quot;Run&quot;,
+    &quot;Kotlin.Task_3Kt (1).executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;#14 on master&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/Kostya/IdeaProjects/KotlinSprintTasks/src/main/kotlin/Main.kt&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.project.gradle&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Kostya\IdeaProjects\KotlinSprintTasks\src" />
@@ -217,6 +219,7 @@
     <MESSAGE value="KST-L1-T2 show variables" />
     <MESSAGE value="KST-3-3 multiplication table" />
     <MESSAGE value="KST-3-2 change name" />
-    <option name="LAST_COMMIT_MESSAGE" value="KST-3-2 change name" />
+    <MESSAGE value="KS-3-4 chess" />
+    <option name="LAST_COMMIT_MESSAGE" value="KS-3-4 chess" />
   </component>
 </project>
