@@ -9,5 +9,14 @@ package org.example.lesson_3
 
 fun main() {
 
-val chessStep = "D2-D4;0"
+    val chessStep = "D2-D4;0"
+    val parsing = chessStep.split("-" , ";")
+
+    val startStep = parsing[0]
+    val finishStep = parsing[1]
+    val numberStep = parsing[2]
+
+    println("При ходе № ${numberStep}")
+    println("Фигура стояла на: $startStep")
+    println("Cделала ход на клетку: $finishStep")
 }
