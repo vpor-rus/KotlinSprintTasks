@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f577f977-06e1-49cb-92ae-2403e5cc9438" name="Changes" comment="KST-L1-T2 show variables">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/lesson_3/Task_2.kt" afterDir="false" />
+    <list default="true" id="f577f977-06e1-49cb-92ae-2403e5cc9438" name="Changes" comment="KST-3-3 multiplication table">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/lesson_1/Task_3.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/lesson_1/Task_3.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/lesson_3/Task_2.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/lesson_3/Task_2.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,7 +45,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="KSP-L1-T1-variable" />
+        <entry key="$PROJECT_DIR$" value="master" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -76,12 +75,13 @@
     "Gradle.Build KotlinSprintTasks.executor": "Run",
     "Kotlin.Task_2Kt (1).executor": "Run",
     "Kotlin.Task_2Kt.executor": "Run",
+    "Kotlin.Task_3Kt (1).executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "master",
+    "git-widget-placeholder": "#12 on KST-3-2-change-name",
     "onboarding.tips.debug.path": "C:/Users/Kostya/IdeaProjects/KotlinSprintTasks/src/main/kotlin/Main.kt",
-    "settings.editor.selected.configurable": "settings.sync"
+    "settings.editor.selected.configurable": "reference.settingsdialog.project.gradle"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -93,7 +93,7 @@
       <recent name="org.example.lesson_1" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin.Task_2Kt (1)">
+  <component name="RunManager" selected="Kotlin.Task_3Kt (1)">
     <configuration name="Task_2Kt (1)" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.lesson_3.Task_2Kt" />
       <module name="KotlinSprintTasks.main" />
@@ -108,10 +108,27 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Task_3Kt (1)" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.lesson_1.Task_3Kt" />
+      <module name="KotlinSprintTasks.main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Task_3Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.lesson_3.Task_3Kt" />
+      <module name="KotlinSprintTasks.main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.Task_3Kt (1)" />
+        <item itemvalue="Kotlin.Task_3Kt" />
         <item itemvalue="Kotlin.Task_2Kt (1)" />
         <item itemvalue="Kotlin.Task_2Kt" />
+        <item itemvalue="Kotlin.Task_2Kt (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -155,7 +172,15 @@
       <option name="project" value="LOCAL" />
       <updated>1745672022486</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="KST-3-3 multiplication table">
+      <option name="closed" value="true" />
+      <created>1745831556765</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1745831556765</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -169,7 +194,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="origin/KST-L2-T5-income" />
+                        <option value="origin/KST-3-2-change-name" />
                       </list>
                     </value>
                   </entry>
@@ -185,6 +210,7 @@
     <MESSAGE value="Initial Commit" />
     <MESSAGE value="KST-L1-T1 variable" />
     <MESSAGE value="KST-L1-T2 show variables" />
-    <option name="LAST_COMMIT_MESSAGE" value="KST-L1-T2 show variables" />
+    <MESSAGE value="KST-3-3 multiplication table" />
+    <option name="LAST_COMMIT_MESSAGE" value="KST-3-3 multiplication table" />
   </component>
 </project>
