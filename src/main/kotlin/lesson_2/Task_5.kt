@@ -22,14 +22,12 @@ n - количество лет, на которые открыт вклад. Н
  */
 
 fun main() {
-
-        val finalContribution: Double
         val initialContribution = 70_000
         val depositPeriod = 20
 
-    finalContribution = initialContribution * (1 + DEPOSIT_INTEREST / NUMBER_OF_CHARGES).pow(depositPeriod)
+    val finalContribution = initialContribution * (1 + DEPOSIT_INTEREST * NUMBER_OF_CHARGES / 100).pow(depositPeriod)
 
     println("%.3f".format(finalContribution))
 }
-const val DEPOSIT_INTEREST = 0.167
+const val DEPOSIT_INTEREST = 16.7
 const val NUMBER_OF_CHARGES = 1
