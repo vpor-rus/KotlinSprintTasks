@@ -17,7 +17,7 @@ fun main() {
     var endStep = "E4"
     println("ход №$numberStep : $startStep -> $endStep")
 
-    numberStep = 2
+    numberStep = numberStep + 1
     startStep = "D2"
     endStep = "D3"
     println("ход №$numberStep : $startStep -> $endStep")
