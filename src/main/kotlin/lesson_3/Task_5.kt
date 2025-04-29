@@ -9,4 +9,5 @@ package org.example.lesson_3
 
 fun main() {
 
+val chessStep = "D2-D4;0"
 }
