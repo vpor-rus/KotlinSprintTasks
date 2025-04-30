@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f577f977-06e1-49cb-92ae-2403e5cc9438" name="Changes" comment="KST-3-3 multiplication table" />
+    <list default="true" id="f577f977-06e1-49cb-92ae-2403e5cc9438" name="Changes" comment="KS-1-4 type varible">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/lesson_1/Task_4.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/lesson_1/Task_4.kt" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -42,7 +45,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="KST-3-3-multiplication-table" />
+        <entry key="$PROJECT_DIR$" value="master" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -69,6 +72,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "Gradle.Build KotlinSprintTasks.executor": "Run",
     "Kotlin.Task_2Kt (1).executor": "Run",
     "Kotlin.Task_2Kt.executor": "Run",
@@ -76,7 +80,8 @@
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "#14 on master",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "KS-1-4-type-varible",
     "onboarding.tips.debug.path": "C:/Users/Kostya/IdeaProjects/KotlinSprintTasks/src/main/kotlin/Main.kt",
     "settings.editor.selected.configurable": "reference.settingsdialog.project.gradle"
   }
@@ -185,7 +190,23 @@
       <option name="project" value="LOCAL" />
       <updated>1745899403986</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="KST-3-3 multiplication table">
+      <option name="closed" value="true" />
+      <created>1745978829824</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1745978829824</updated>
+    </task>
+    <task id="LOCAL-00008" summary="KS-1-4 type varible">
+      <option name="closed" value="true" />
+      <created>1745979198210</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1745979198210</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -215,8 +236,9 @@
     <MESSAGE value="Initial Commit" />
     <MESSAGE value="KST-L1-T1 variable" />
     <MESSAGE value="KST-L1-T2 show variables" />
-    <MESSAGE value="KST-3-3 multiplication table" />
     <MESSAGE value="KST-3-2 change name" />
-    <option name="LAST_COMMIT_MESSAGE" value="KST-3-2 change name" />
+    <MESSAGE value="KST-3-3 multiplication table" />
+    <MESSAGE value="KS-1-4 type varible" />
+    <option name="LAST_COMMIT_MESSAGE" value="KS-1-4 type varible" />
   </component>
 </project>
