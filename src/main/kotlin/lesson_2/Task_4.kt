@@ -14,7 +14,7 @@ fun main() {
     val ironOre = 11
 
     println("кристаллическая руда с баффом: ${(crystalOre * ADDITIONAL_BAFF)/100}")
-    println("железная рудаа с баффом: ${(ironOre * ADDITIONAL_BAFF)/100}")
+    println("железная рудаа с баффом: ${ironOre * ADDITIONAL_BAFF/100}")
 }
 
 const val ADDITIONAL_BAFF  = 20
