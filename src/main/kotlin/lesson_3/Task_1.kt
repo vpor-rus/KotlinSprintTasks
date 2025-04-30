@@ -9,8 +9,7 @@ package org.example.lesson_3
  Вывести в консоль два приветствия (для дня и для вечера), перезаписывая данные в одну исходную переменную.*/
 
 fun main() {
-    val greeting: String
-    val name = "Kind man"
+       val name = "Kind man"
     val dayGreeting = "Good afternoon,"
     val eveningGreeting = "Good evening,"
 
