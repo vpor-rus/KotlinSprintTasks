@@ -12,9 +12,10 @@ package org.example.lesson_2
 fun main() {
     val crystalOre = 7
     val ironOre = 11
+    val translatePersentForIndex = 100
 
-    println("кристаллическая руда с баффом: ${(crystalOre * ADDITIONAL_BAFF)/100}")
-    println("железная рудаа с баффом: ${ironOre * ADDITIONAL_BAFF/100}")
+    println("кристаллическая руда с баффом: ${(crystalOre * ADDITIONAL_BAFF) / translatePersentForIndex}")
+    println("железная рудаа с баффом: ${ironOre * ADDITIONAL_BAFF / translatePersentForIndex}")
 }
 
 const val ADDITIONAL_BAFF  = 20
