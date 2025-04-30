@@ -16,7 +16,7 @@ fun main() {
 
     val finishTimeInMinutes = startTimeInMinutes + travelInTime
 
-    println("${finishTimeInMinutes / MINUTES_VS_HOUR}:${finishTimeInMinutes % MINUTES_VS_HOUR}")
+    println("${finishTimeInMinutes / MINUTES_VS_HOUR} : ${finishTimeInMinutes % MINUTES_VS_HOUR}")
 }
 const val MINUTES_VS_HOUR = 60
 
