@@ -15,10 +15,10 @@ fun main() {
     var numberStep = 1
     var startStep = "E2"
     var endStep = "E4"
-    println("ход №$numberStep : $startStep -> $endStep")
+    println("$startStep-$endStep;$numberStep")
 
     numberStep = numberStep + 1
     startStep = "D2"
     endStep = "D3"
-    println("ход №$numberStep : $startStep -> $endStep")
+    println("$startStep-$endStep;$numberStep")
 }
