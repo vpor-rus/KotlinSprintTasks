@@ -8,11 +8,11 @@ package org.example.lesson_3
 [ФИО, возраст]. Все части ФИО и возраст изначально хранятся в отдельных переменных.*/
 
 fun main () {
-    var firstNameMiss = "Андреева"
-    val secondName = "Татьяна"
+        val secondName = "Татьяна"
     val middleName = "Сергеевна"
     var age: Int
 
+    var firstNameMiss = "Андреева"
     age = 20
     println("$firstNameMiss $secondName $middleName $age лет")
 
