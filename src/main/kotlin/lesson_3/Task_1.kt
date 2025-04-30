@@ -10,7 +10,7 @@ package org.example.lesson_3
 
 fun main() {
     val greeting: String
-    val name = "Kind man"
+    val name = "Very kind man"
     val dayGreeting = "Good afternoon,"
     val eveningGreeting = "Good evening,"
 
