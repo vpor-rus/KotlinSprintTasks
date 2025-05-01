@@ -14,5 +14,14 @@ package org.example.lesson_4
 - сделай сравнение непосредственно внутри println() и без использования диапазонов.*/
 
 fun  main() {
+val  weightPassingCargo = 42
+val voliumPassingCargo = 120
 
+val customsGivesTheGoAhead: Boolean = weightPassingCargo > MIN_WEIGHT_AVERAGE && weightPassingCargo < MAX_WEIGHT_VOLUME_AVERAGE &&
+voliumPassingCargo < MAX_WEIGHT_VOLUME_AVERAGE
+
+println("Груз с весом 42 кг и объемом 120 л соотвествует: $customsGivesTheGoAhead")
 }
+
+const val MIN_WEIGHT_AVERAGE = 35
+const val MAX_WEIGHT_VOLUME_AVERAGE = 100
