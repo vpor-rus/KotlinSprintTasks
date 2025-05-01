@@ -12,11 +12,11 @@ fun main () {
     val middleName = "Сергеевна"
     var age: Int
 
-    var firstNameMiss = "Андреева"
+    var firstName = "Андреева"
     age = 20
-    println("$firstNameMiss $secondName $middleName $age лет")
+    println("$firstName $secondName $middleName $age лет")
 
-    firstNameMiss = "Сидорова"
+    firstName = "Сидорова"
     age =22
-    println("$firstNameMiss $secondName $middleName $age лет")
+    println("$firstName $secondName $middleName $age лет")
 }
