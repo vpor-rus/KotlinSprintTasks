@@ -14,13 +14,30 @@ package org.example.lesson_4
 - сделай сравнение непосредственно внутри println() и без использования диапазонов.*/
 
 fun  main() {
-val  weightPassingCargo = 42
-val voliumPassingCargo = 120
 
-val customsGivesTheGoAhead: Boolean = weightPassingCargo > MIN_WEIGHT_AVERAGE && weightPassingCargo < MAX_WEIGHT_VOLUME_AVERAGE &&
+var weightPassingCargo = 42
+var voliumPassingCargo = 120
+
+var customsGivesTheGoAhead: Boolean = weightPassingCargo > MIN_WEIGHT_AVERAGE && weightPassingCargo < MAX_WEIGHT_VOLUME_AVERAGE &&
 voliumPassingCargo < MAX_WEIGHT_VOLUME_AVERAGE
 
-println("Груз с весом 42 кг и объемом 120 л соотвествует: $customsGivesTheGoAhead")
+    println("Груз с весом $weightPassingCargo кг и объемом $voliumPassingCargo л соотвествует: $customsGivesTheGoAhead")
+
+weightPassingCargo = 20
+voliumPassingCargo = 80
+
+customsGivesTheGoAhead = weightPassingCargo > MIN_WEIGHT_AVERAGE && weightPassingCargo < MAX_WEIGHT_VOLUME_AVERAGE &&
+voliumPassingCargo < MAX_WEIGHT_VOLUME_AVERAGE
+
+    println("Груз с весом $weightPassingCargo кг и объемом $voliumPassingCargo л соотвествует: $customsGivesTheGoAhead")
+
+weightPassingCargo = 50
+voliumPassingCargo = 100
+
+customsGivesTheGoAhead = weightPassingCargo > MIN_WEIGHT_AVERAGE && weightPassingCargo < MAX_WEIGHT_VOLUME_AVERAGE &&
+voliumPassingCargo < MAX_WEIGHT_VOLUME_AVERAGE
+
+    println("Груз с весом $weightPassingCargo кг и объемом $voliumPassingCargo л соотвествует: $customsGivesTheGoAhead")
 }
 
 const val MIN_WEIGHT_AVERAGE = 35
