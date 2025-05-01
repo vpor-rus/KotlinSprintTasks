@@ -5,9 +5,6 @@
       <module name="KotlinSprint" target="23" />
       <module name="KotlinSprint.main" target="23" />
       <module name="KotlinSprint.test" target="23" />
-      <module name="KotlinSprintTasks" target="23" />
-      <module name="KotlinSprintTasks.main" target="23" />
-      <module name="KotlinSprintTasks.test" target="23" />
       <module name="KotlinSprintTasks_main" target="23" />
       <module name="KotlinSprintTasks_test" target="23" />
     </bytecodeTargetLevel>
