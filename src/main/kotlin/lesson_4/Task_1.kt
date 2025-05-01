@@ -22,12 +22,15 @@ fun main() {
     val reservedTablesTomorrow = 9
 
     reservedTables = reservedTablesToday
+
     var resultReserve: Boolean = reservedTables !== NUMBER_OF_TABLES
     println("$resultReserve")
 
     reservedTables = reservedTablesTomorrow
+
     resultReserve= reservedTables !== NUMBER_OF_TABLES
     println("$resultReserve")
 
 }
+
 const val NUMBER_OF_TABLES = 13
