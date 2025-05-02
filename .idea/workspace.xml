@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f577f977-06e1-49cb-92ae-2403e5cc9438" name="Changes" comment="KS-3-5 chess rasparsing">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/lesson_4/Task_3.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+    <list default="true" id="f577f977-06e1-49cb-92ae-2403e5cc9438" name="Changes" comment="KS-2-5 income">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/lesson_3/Task_4.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/lesson_3/Task_4.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,6 +43,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="vpor-rus &lt;vpor901@gmail.com&gt;" />
+      </list>
+    </option>
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
         <entry key="$PROJECT_DIR$" value="master" />
@@ -59,13 +63,10 @@
 }</component>
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/vpor-rus/KotlinSprint.git&quot;,
-    &quot;accountId&quot;: &quot;cb7dd3ac-465d-4000-9eb2-8ace311dc956&quot;
+    &quot;url&quot;: &quot;https://github.com/vpor-rus/KotlinSprintTasks.git&quot;,
+    &quot;accountId&quot;: &quot;02042cdc-dd6e-4fad-a5e5-abdce5456628&quot;
   }
 }</component>
-  <component name="ProblemsViewState">
-    <option name="selectedTabId" value="CurrentFile" />
-  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 6
 }</component>
@@ -76,16 +77,18 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "Gradle.Build KotlinSprint.executor": "Run",
     "Gradle.Build KotlinSprintTasks.executor": "Run",
     "Kotlin.Task_2Kt (1).executor": "Run",
     "Kotlin.Task_2Kt.executor": "Run",
     "Kotlin.Task_3Kt (1).executor": "Run",
-    "Kotlin.Task_5Kt.executor": "Run",
+    "Kotlin.Task_5Kt (1).executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "KS-4-3-weather-cinditions",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "KS-2-5-income",
     "onboarding.tips.debug.path": "C:/Users/Kostya/IdeaProjects/KotlinSprintTasks/src/main/kotlin/Main.kt",
     "settings.editor.selected.configurable": "reference.settingsdialog.project.gradle"
   }
@@ -99,21 +102,7 @@
       <recent name="org.example.lesson_1" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin.Task_5Kt">
-    <configuration name="Task_2Kt (1)" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.lesson_3.Task_2Kt" />
-      <module name="KotlinSprintTasks.main" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Task_2Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.lesson_1.Task_2Kt" />
-      <module name="KotlinSprintTasks.main" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Kotlin.Task_5Kt (1)">
     <configuration name="Task_3Kt (1)" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.lesson_1.Task_3Kt" />
       <module name="KotlinSprintTasks.main" />
@@ -121,8 +110,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Task_3Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.lesson_3.Task_3Kt" />
+    <configuration name="Task_4Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.lesson_3.Task_4Kt" />
+      <module name="KotlinSprintTasks.main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Task_5Kt (1)" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.lesson_2.Task_5Kt" />
+      <module name="KotlinSprintTasks.main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Task_5Kt (2)" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.lesson_1.Task_5Kt" />
       <module name="KotlinSprintTasks.main" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -137,11 +140,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.Task_5Kt (1)" />
+        <item itemvalue="Kotlin.Task_5Kt (2)" />
         <item itemvalue="Kotlin.Task_5Kt" />
+        <item itemvalue="Kotlin.Task_4Kt" />
         <item itemvalue="Kotlin.Task_3Kt (1)" />
-        <item itemvalue="Kotlin.Task_3Kt" />
-        <item itemvalue="Kotlin.Task_2Kt (1)" />
-        <item itemvalue="Kotlin.Task_2Kt" />
       </list>
     </recent_temporary>
   </component>
@@ -201,39 +204,47 @@
       <option name="project" value="LOCAL" />
       <updated>1745899403986</updated>
     </task>
-    <task id="LOCAL-00007" summary="KS-3-5 chess rasparsing">
+    <task id="LOCAL-00007" summary="KST-3-3 multiplication table">
       <option name="closed" value="true" />
-      <created>1745902012482</created>
+      <created>1745978829824</created>
       <option name="number" value="00007" />
       <option name="presentableId" value="LOCAL-00007" />
       <option name="project" value="LOCAL" />
-      <updated>1745902012482</updated>
+      <updated>1745978829824</updated>
     </task>
-    <task id="LOCAL-00008" summary="KS-3-5 chess rasparsing">
+    <task id="LOCAL-00008" summary="KS-1-4 type varible">
       <option name="closed" value="true" />
-      <created>1746066840880</created>
+      <created>1745979198210</created>
       <option name="number" value="00008" />
       <option name="presentableId" value="LOCAL-00008" />
       <option name="project" value="LOCAL" />
-      <updated>1746066840880</updated>
+      <updated>1745979198210</updated>
     </task>
-    <task id="LOCAL-00009" summary="KS-3-5 chess rasparsing">
+    <task id="LOCAL-00009" summary="Merge pull request #25 from vpor-rus/KS-2-4-baff&#10;&#10;KS-2-4 baff">
       <option name="closed" value="true" />
-      <created>1746069291956</created>
+      <created>1746176415869</created>
       <option name="number" value="00009" />
       <option name="presentableId" value="LOCAL-00009" />
       <option name="project" value="LOCAL" />
-      <updated>1746069291956</updated>
+      <updated>1746176415869</updated>
     </task>
-    <task id="LOCAL-00010" summary="KS-3-5 chess rasparsing">
+    <task id="LOCAL-00010" summary="Merge remote-tracking branch 'origin/master'">
       <option name="closed" value="true" />
-      <created>1746071778793</created>
+      <created>1746176692714</created>
       <option name="number" value="00010" />
       <option name="presentableId" value="LOCAL-00010" />
       <option name="project" value="LOCAL" />
-      <updated>1746071778793</updated>
+      <updated>1746176692714</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="KS-2-5 income">
+      <option name="closed" value="true" />
+      <created>1746176805853</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1746176805853</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -263,11 +274,13 @@
     <MESSAGE value="Initial Commit" />
     <MESSAGE value="KST-L1-T1 variable" />
     <MESSAGE value="KST-L1-T2 show variables" />
-    <MESSAGE value="KST-3-3 multiplication table" />
     <MESSAGE value="KST-3-2 change name" />
-    <MESSAGE value="KS-3-4 chess" />
+    <MESSAGE value="KST-3-3 multiplication table" />
+    <MESSAGE value="KS-1-4 type varible" />
+    <MESSAGE value="KS-3-4 chess step" />
+    <MESSAGE value="Merge pull request #25 from vpor-rus/KS-2-4-baff&#10;&#10;KS-2-4 baff" />
     <MESSAGE value="Merge remote-tracking branch 'origin/master'" />
-    <MESSAGE value="KS-3-5 chess rasparsing" />
-    <option name="LAST_COMMIT_MESSAGE" value="KS-3-5 chess rasparsing" />
+    <MESSAGE value="KS-2-5 income" />
+    <option name="LAST_COMMIT_MESSAGE" value="KS-2-5 income" />
   </component>
 </project>
