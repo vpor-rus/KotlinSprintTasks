@@ -21,10 +21,13 @@ package org.example.lesson_4
 - при изменении значения переменной дня тренировки на 1 день вперед, вывод должен меняться.*/
 
 fun main() {
-    val handsExercise = true
-    val legExercise = false
-    val backExercise = false
-    val absExercise = true
 
-    val dayNumber = 1
+    var trainingDay = 1
+
+    val handsExercise = trainingDay % 2 !== 0
+    val legExercise = trainingDay % 2 == 0
+    val backExercise = trainingDay % 2 == 0
+    val absExercise = trainingDay % 2 !== 0}
+
+   println("$hand")
 }

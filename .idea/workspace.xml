@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f577f977-06e1-49cb-92ae-2403e5cc9438" name="Changes" comment="KS-3-5 chess rasparsing">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/lesson_4/Task_3.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/lesson_4/Task_4.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/lesson_4/Task_4.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,8 +84,11 @@
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "KS-4-3-weather-cinditions",
+    "git-widget-placeholder": "#36 on KS-4-4-shedule-exercuse",
     "onboarding.tips.debug.path": "C:/Users/Kostya/IdeaProjects/KotlinSprintTasks/src/main/kotlin/Main.kt",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
     "settings.editor.selected.configurable": "reference.settingsdialog.project.gradle"
   }
 }]]></component>
