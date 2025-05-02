@@ -22,12 +22,10 @@ package org.example.lesson_4
 
 fun main() {
 
-    var trainingDay = 1
+    var trainingDay = 5
 
-    val handsExercise = trainingDay % 2 !== 0
-    val legExercise = trainingDay % 2 == 0
-    val backExercise = trainingDay % 2 == 0
-    val absExercise = trainingDay % 2 !== 0}
-
-   println("$hand")
+    println("Упражнения для рук: ${trainingDay % 2 !== 0}\n" +
+            "Упражнения для ног: ${trainingDay % 2 == 0}\n" +
+            "Упражения для спины: ${trainingDay % 2 == 0}\n" +
+            "Упражнения для пресса: ${trainingDay % 2 !== 0}")
 }
