@@ -65,7 +65,7 @@
   </component>
 
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Kostya\IdeaProjects\KotlinSprintTasks\src" />
@@ -97,6 +97,13 @@
     <configuration name="Task_5Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.lesson_3.Task_5Kt" />
 
+      <module name="KotlinSprintTasks.main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Task_5Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.lesson_3.Task_5Kt" />
       <module name="KotlinSprintTasks.main" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -164,6 +171,7 @@
       <option name="project" value="LOCAL" />
       <updated>1745899403986</updated>
     </task>
+
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -193,7 +201,6 @@
     <MESSAGE value="Initial Commit" />
     <MESSAGE value="KST-L1-T1 variable" />
     <MESSAGE value="KST-L1-T2 show variables" />
-    <MESSAGE value="KST-3-2 change name" />
     <MESSAGE value="KST-3-3 multiplication table" />
 
   </component>
