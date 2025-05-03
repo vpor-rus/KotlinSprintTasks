@@ -42,9 +42,13 @@ fun main() {
     println("На берегу. Нам позволяет погода оправится в путь? false/true")
     val relevantWeatherCondition: Boolean = readln().toBoolean()
 
-    letsGoCapitan = ((caseIsServiceable == true) && (shipCrew in (55..70)
-            && (boxesOnBoard >= 50) && (relevantWeatherCondition == true))
-            || ((shipCrew == 70) && (relevantWeatherCondition == true) && boxesOnBoard >= 50))
+    letsGoCapitan = ((caseIsServiceable == true) && (shipCrew in (MINIMMUM_CREW..MAXIMUM_CREW)
+            && (boxesOnBoard >= MINIMUM_BOXES) && (relevantWeatherCondition == true))
+            || ((shipCrew == MAXIMUM_CREW) && (relevantWeatherCondition == true) && boxesOnBoard >= MINIMUM_BOXES))
 
     println("От винта: $letsGoCapitan")
 }
+
+const val MINIMMUM_CREW = 55
+const val MAXIMUM_CREW = 70
+const val MINIMUM_BOXES = 50
