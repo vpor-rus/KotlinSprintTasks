@@ -1,7 +1,5 @@
 package org.example.lesson_1
 
-import java.text.DecimalFormat
-
 /*Объяви переменную с количеством секунд, которые Гагарин провел в космосе.
 
 - Переведи в коде количество секунд(val seconds: Short = 6_480) в целые минуты и целые часы,
