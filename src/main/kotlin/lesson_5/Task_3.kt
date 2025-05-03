@@ -15,30 +15,36 @@ import kotlin.random.Random
 - программа должна учитывать ввод чисел в обратном порядке.*/
 
 fun main() {
-    var resultLottery = 0
-    val lotteryNumberFirst = Random.nextInt(0,42)
+    val lotteryNumberFirst = Random.nextInt(0, 42)
     println("Далее показано рандомное число, что бы можно было проверить работоспособность $lotteryNumberFirst")
 
+    println("Введите число от 0 до 42")
+    val firstEntredNumber = readln().toInt()
+
+    if (firstEntredNumber == lotteryNumberFirst) {
+
+        val lotteryNumberSecond = Random.nextInt(0, 42)
+        println("Далее показано рандомное число, что бы можно было проверить работоспособность $lotteryNumberSecond")
+
         println("Введите число от 0 до 42")
-       val firstEntredNumber = readln().toInt()
-
-         if (firstEntredNumber == lotteryNumberFirst) {
-        resultLottery = resultLottery + 1
-    }
-
-    val lotteryNumberSecond = Random.nextInt(0,42)
-    println("Далее показано рандомное число, что бы можно было проверить работоспособность $lotteryNumberSecond")
-
-         println("Введите число от 0 до 42")
         val secondEntredNumber = readln().toInt()
 
-         if (secondEntredNumber == lotteryNumberSecond) {
-        resultLottery = resultLottery + 1
-    }
+        if (secondEntredNumber == lotteryNumberSecond) {
+            println("Поздравляем! Вы выиграли главный приз!")
+        } else {
+            println("Вы выиграли утешительный приз!")
+        }
+    } else {
+        val lotteryNumberSecond = Random.nextInt(0, 42)
+        println("Далее показано рандомное число, что бы можно было проверить работоспособность $lotteryNumberSecond")
 
-    if (resultLottery == 2) {
-        println("Поздравляем! Вы выиграли главный приз!")
-    } else if (resultLottery == 1) {
-        println("Вы выиграли утешительный приз!")
-    } else {println("Неудача!")}
+        println("Введите число от 0 до 42")
+        val secondEntredNumber = readln().toInt()
+
+        if (secondEntredNumber == lotteryNumberSecond) {
+            println("Вы выиграли утешительный приз!")
+        } else {
+            println("Неудача!")
+        }
+    }
 }
