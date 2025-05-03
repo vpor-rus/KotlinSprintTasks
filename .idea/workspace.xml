@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f577f977-06e1-49cb-92ae-2403e5cc9438" name="Changes" comment="Merge remote-tracking branch 'origin/master'">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/lesson_4/Task_5.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/lesson_5/Task_2.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -38,15 +38,15 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Kotlin File" />
         <option value="Kotlin Class" />
+        <option value="Kotlin File" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="KS-4-4-shedule-exercuse" />
+        <entry key="$PROJECT_DIR$" value="KS-5-1-appenter" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -74,25 +74,25 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Gradle.Build KotlinSprint.executor": "Run",
-    "Gradle.Build KotlinSprintTasks.executor": "Run",
-    "Kotlin.Task_2Kt (1).executor": "Run",
-    "Kotlin.Task_2Kt.executor": "Run",
-    "Kotlin.Task_3Kt (1).executor": "Run",
-    "Kotlin.Task_5Kt.executor": "Run",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "master",
-    "onboarding.tips.debug.path": "C:/Users/Kostya/IdeaProjects/KotlinSprintTasks/src/main/kotlin/Main.kt",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "reference.settingsdialog.project.gradle"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Gradle.Build KotlinSprint.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.Build KotlinSprintTasks.executor&quot;: &quot;Run&quot;,
+    &quot;Kotlin.Task_2Kt (1).executor&quot;: &quot;Run&quot;,
+    &quot;Kotlin.Task_2Kt.executor&quot;: &quot;Run&quot;,
+    &quot;Kotlin.Task_3Kt (1).executor&quot;: &quot;Run&quot;,
+    &quot;Kotlin.Task_5Kt.executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/Kostya/IdeaProjects/KotlinSprintTasks/src/main/kotlin/Main.kt&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.project.gradle&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Kostya\IdeaProjects\KotlinSprintTasks\src" />
@@ -102,16 +102,9 @@
       <recent name="org.example.lesson_1" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin.Task_5Kt (1)">
-    <configuration name="Task_3Kt (1)" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.lesson_1.Task_3Kt" />
-      <module name="KotlinSprintTasks.main" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Task_4Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.lesson_3.Task_4Kt" />
+  <component name="RunManager" selected="Kotlin.Task_1Kt">
+    <configuration name="Task_1Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.lesson_5.Task_1Kt" />
       <module name="KotlinSprintTasks.main" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -131,6 +124,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Task_5Kt (3)" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.lesson_4.Task_5Kt" />
+      <module name="KotlinSprintTasks.main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Task_5Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.lesson_3.Task_5Kt" />
       <module name="KotlinSprintTasks.main" />
@@ -140,11 +140,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.Task_5Kt (3)" />
         <item itemvalue="Kotlin.Task_5Kt (2)" />
         <item itemvalue="Kotlin.Task_5Kt (1)" />
         <item itemvalue="Kotlin.Task_5Kt" />
-        <item itemvalue="Kotlin.Task_4Kt" />
-        <item itemvalue="Kotlin.Task_3Kt (1)" />
+        <item itemvalue="Kotlin.Task_1Kt" />
       </list>
     </recent_temporary>
   </component>
