@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f577f977-06e1-49cb-92ae-2403e5cc9438" name="Changes" comment="Merge remote-tracking branch 'origin/master'">
+
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/lesson_4/Task_4.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/lesson_4/Task_4.kt" afterDir="false" />
     </list>
@@ -38,6 +39,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Kotlin Class" />
         <option value="Kotlin File" />
       </list>
     </option>
@@ -45,7 +47,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="KS-5-1-appenter" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -56,10 +58,7 @@
     &quot;assignee&quot;: &quot;vpor-rus&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/vpor-rus/KotlinSprint",
-    "accountId": "cc51112f-d180-4492-bcf4-865c4796ebba"
+
   }
 }]]></component>
   <component name="ProblemsViewState">
@@ -84,7 +83,7 @@
     &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;#36 on KS-4-4-shedule-exercuse&quot;,
+
     &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/Kostya/IdeaProjects/KotlinSprintTasks/src/main/kotlin/Main.kt&quot;,
     &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
@@ -101,30 +100,30 @@
       <recent name="org.example.lesson_1" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin.Task_5Kt">
-    <configuration name="Task_2Kt (1)" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.lesson_3.Task_2Kt" />
+  <component name="RunManager" selected="Kotlin.Task_1Kt">
+    <configuration name="Task_1Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.lesson_5.Task_1Kt" />
       <module name="KotlinSprintTasks.main" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Task_2Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.lesson_1.Task_2Kt" />
+    <configuration name="Task_5Kt (1)" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.lesson_2.Task_5Kt" />
       <module name="KotlinSprintTasks.main" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Task_3Kt (1)" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.lesson_1.Task_3Kt" />
+    <configuration name="Task_5Kt (2)" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.lesson_1.Task_5Kt" />
       <module name="KotlinSprintTasks.main" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Task_3Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.lesson_3.Task_3Kt" />
+    <configuration name="Task_5Kt (3)" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.lesson_4.Task_5Kt" />
       <module name="KotlinSprintTasks.main" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -139,11 +138,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.Task_5Kt (3)" />
+        <item itemvalue="Kotlin.Task_5Kt (2)" />
+        <item itemvalue="Kotlin.Task_5Kt (1)" />
         <item itemvalue="Kotlin.Task_5Kt" />
-        <item itemvalue="Kotlin.Task_3Kt (1)" />
-        <item itemvalue="Kotlin.Task_3Kt" />
-        <item itemvalue="Kotlin.Task_2Kt (1)" />
-        <item itemvalue="Kotlin.Task_2Kt" />
+        <item itemvalue="Kotlin.Task_1Kt" />
       </list>
     </recent_temporary>
   </component>
