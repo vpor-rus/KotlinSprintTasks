@@ -20,5 +20,9 @@ package org.example.lesson_5
 - В конце игры вне зависимости от результата программа выводит выигрышные числа.*/
 
 fun main() {
+val firstRandom = readln().toInt()
+val secondRandom = readln().toInt()
+val trirdRandom = readln().toInt()
 
+val
 }
