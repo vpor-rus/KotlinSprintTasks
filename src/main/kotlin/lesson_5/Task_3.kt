@@ -18,33 +18,20 @@ fun main() {
     val lotteryNumberFirst = Random.nextInt(0, 42)
     println("Далее показано рандомное число, что бы можно было проверить работоспособность $lotteryNumberFirst")
 
+    val lotteryNumberSecond = Random.nextInt(0, 42)
+    println("Далее показано рандомное число, что бы можно было проверить работоспособность $lotteryNumberSecond")
+
     println("Введите число от 0 до 42")
     val firstEntredNumber = readln().toInt()
 
-    if (firstEntredNumber == lotteryNumberFirst) {
+    println("Введите число от 0 до 42")
+    val secondEntredNumber = readln().toInt()
 
-        val lotteryNumberSecond = Random.nextInt(0, 42)
-        println("Далее показано рандомное число, что бы можно было проверить работоспособность $lotteryNumberSecond")
-
-        println("Введите число от 0 до 42")
-        val secondEntredNumber = readln().toInt()
-
-        if (secondEntredNumber == lotteryNumberSecond) {
-            println("Поздравляем! Вы выиграли главный приз!")
-        } else {
-            println("Вы выиграли утешительный приз!")
-        }
+    if ((firstEntredNumber == lotteryNumberFirst && secondEntredNumber == lotteryNumberSecond) || (firstEntredNumber == lotteryNumberSecond && secondEntredNumber == lotteryNumberFirst)) {
+        println("Поздравляем! Вы выиграли главный приз!")
+    } else if (firstEntredNumber == lotteryNumberFirst || secondEntredNumber == lotteryNumberSecond || firstEntredNumber == lotteryNumberSecond || secondEntredNumber == lotteryNumberFirst) {
+        println("Вы выиграли утешительный приз!")
     } else {
-        val lotteryNumberSecond = Random.nextInt(0, 42)
-        println("Далее показано рандомное число, что бы можно было проверить работоспособность $lotteryNumberSecond")
-
-        println("Введите число от 0 до 42")
-        val secondEntredNumber = readln().toInt()
-
-        if (secondEntredNumber == lotteryNumberSecond) {
-            println("Вы выиграли утешительный приз!")
-        } else {
-            println("Неудача!")
-        }
+        println("Неудача!")
     }
 }
