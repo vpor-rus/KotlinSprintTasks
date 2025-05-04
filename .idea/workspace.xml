@@ -4,136 +4,34 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f577f977-06e1-49cb-92ae-2403e5cc9438" name="Changes" comment="Merge remote-tracking branch 'origin/master'">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/lesson_5/Task_4.kt" afterDir="false" />
+    <list default="true" id="b95f6204-3a16-416c-808e-30646498bf68" name="Changes" comment="KS-4-5 lets get dangerous">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/lesson_5/Task_5.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/lesson_5/Task_5.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ExternalProjectsData">
-    <projectState path="$PROJECT_DIR$">
-      <ProjectState />
-    </projectState>
-  </component>
-  <component name="ExternalProjectsManager">
-    <system id="GRADLE">
-      <state>
-        <projects_view>
-          <tree_state>
-            <expand>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="KotlinSprintTasks" type="f1a62948:ProjectNode" />
-              </path>
-            </expand>
-            <select />
-          </tree_state>
-        </projects_view>
-      </state>
-    </system>
-  </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Kotlin Class" />
-        <option value="Kotlin File" />
-      </list>
-    </option>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="TS-5-3-lottery" />
+        <entry key="$PROJECT_DIR$" value="master" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory">{
-  &quot;lastFilter&quot;: {
-    &quot;state&quot;: &quot;OPEN&quot;,
-    &quot;assignee&quot;: &quot;vpor-rus&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Gradle.Build KotlinSprint.executor": "Run",
+    "Kotlin.Task_5Kt.executor": "Run",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "KS-5-5-cool-lottery"
   }
-}</component>
-  <component name="GithubPullRequestsUISettings">{
-  &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/vpor-rus/KotlinSprint&quot;,
-    &quot;accountId&quot;: &quot;cc51112f-d180-4492-bcf4-865c4796ebba&quot;
-  }
-}</component>
-  <component name="ProblemsViewState">
-    <option name="selectedTabId" value="CurrentFile" />
-  </component>
-  <component name="ProjectColorInfo">{
-  &quot;associatedIndex&quot;: 6
-}</component>
-  <component name="ProjectId" id="2wGZoS3RXudldVvbrMLvEvkSBJy" />
-  <component name="ProjectViewState">
-    <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showLibraryContents" value="true" />
-  </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Gradle.Build KotlinSprint.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.Build KotlinSprintTasks.executor&quot;: &quot;Run&quot;,
-    &quot;Kotlin.Task_2Kt (1).executor&quot;: &quot;Run&quot;,
-    &quot;Kotlin.Task_2Kt.executor&quot;: &quot;Run&quot;,
-    &quot;Kotlin.Task_3Kt (1).executor&quot;: &quot;Run&quot;,
-    &quot;Kotlin.Task_4Kt.executor&quot;: &quot;Run&quot;,
-    &quot;Kotlin.Task_5Kt.executor&quot;: &quot;Run&quot;,
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/Kostya/IdeaProjects/KotlinSprintTasks/src/main/kotlin/Main.kt&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.project.gradle&quot;
-  }
-}</component>
-  <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Kostya\IdeaProjects\KotlinSprintTasks\src" />
-      <recent name="C:\Users\Kostya\IdeaProjects\KotlinSprintTasks\.gradle" />
-    </key>
-    <key name="K2MoveDeclarationsDialog.RECENT_PACKAGE_KEY">
-      <recent name="org.example.lesson_1" />
-    </key>
-  </component>
-  <component name="RunManager" selected="Kotlin.Task_4Kt">
-    <configuration name="Task_4Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.lesson_5.Task_4Kt" />
-      <module name="KotlinSprintTasks.main" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Task_5Kt (1)" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.lesson_2.Task_5Kt" />
-      <module name="KotlinSprintTasks.main" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Task_5Kt (2)" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.lesson_1.Task_5Kt" />
-      <module name="KotlinSprintTasks.main" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Task_5Kt (3)" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.lesson_4.Task_5Kt" />
-      <module name="KotlinSprintTasks.main" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+}]]></component>
+  <component name="RunManager">
     <configuration name="Task_5Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.lesson_3.Task_5Kt" />
+      <option name="MAIN_CLASS_NAME" value="org.example.lesson_5.Task_5Kt" />
       <module name="KotlinSprintTasks.main" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -141,145 +39,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Kotlin.Task_5Kt (3)" />
-        <item itemvalue="Kotlin.Task_5Kt (2)" />
-        <item itemvalue="Kotlin.Task_5Kt (1)" />
         <item itemvalue="Kotlin.Task_5Kt" />
-        <item itemvalue="Kotlin.Task_4Kt" />
       </list>
     </recent_temporary>
   </component>
   <component name="TaskManager">
-    <task active="true" id="Default" summary="Default task">
-      <changelist id="f577f977-06e1-49cb-92ae-2403e5cc9438" name="Changes" comment="" />
-      <created>1745670154071</created>
-      <option name="number" value="Default" />
-      <option name="presentableId" value="Default" />
-      <updated>1745670154071</updated>
-    </task>
-    <task id="LOCAL-00001" summary="Initial Commit">
-      <option name="closed" value="true" />
-      <created>1745670726915</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1745670726915</updated>
-    </task>
-    <task id="LOCAL-00002" summary="KST-L1-T1 variable">
-      <option name="closed" value="true" />
-      <created>1745671314829</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1745671314829</updated>
-    </task>
-    <task id="LOCAL-00003" summary="KST-L1-T2 show variables">
-      <option name="closed" value="true" />
-      <created>1745671601258</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1745671601258</updated>
-    </task>
-    <task id="LOCAL-00004" summary="KST-L1-T2 show variables">
-      <option name="closed" value="true" />
-      <created>1745672022485</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1745672022486</updated>
-    </task>
-    <task id="LOCAL-00005" summary="KST-3-3 multiplication table">
-      <option name="closed" value="true" />
-      <created>1745831556765</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1745831556765</updated>
-    </task>
-    <task id="LOCAL-00006" summary="KST-3-2 change name">
-      <option name="closed" value="true" />
-      <created>1745899403986</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1745899403986</updated>
-    </task>
-    <task id="LOCAL-00007" summary="KS-3-5 chess rasparsing">
-      <option name="closed" value="true" />
-      <created>1745902012482</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1745902012482</updated>
-    </task>
-    <task id="LOCAL-00008" summary="KS-3-5 chess rasparsing">
-      <option name="closed" value="true" />
-      <created>1746066840880</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1746066840880</updated>
-    </task>
-    <task id="LOCAL-00009" summary="KS-3-5 chess rasparsing">
-      <option name="closed" value="true" />
-      <created>1746069291956</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1746069291956</updated>
-    </task>
-    <task id="LOCAL-00010" summary="KS-3-5 chess rasparsing">
-      <option name="closed" value="true" />
-      <created>1746071778793</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1746071778793</updated>
-    </task>
-    <task id="LOCAL-00011" summary="Merge remote-tracking branch 'origin/master'">
-      <option name="closed" value="true" />
-      <created>1746178622125</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1746178622125</updated>
-    </task>
-    <option name="localTasksCounter" value="12" />
     <servers />
-  </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State>
-              <option name="FILTERS">
-                <map>
-                  <entry key="branch">
-                    <value>
-                      <list>
-                        <option value="origin/KST-L2-T5-income" />
-                      </list>
-                    </value>
-                  </entry>
-                </map>
-              </option>
-            </State>
-          </value>
-        </entry>
-      </map>
-    </option>
-  </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="Initial Commit" />
-    <MESSAGE value="KST-L1-T1 variable" />
-    <MESSAGE value="KST-L1-T2 show variables" />
-    <MESSAGE value="KST-3-3 multiplication table" />
-    <MESSAGE value="KST-3-2 change name" />
-    <MESSAGE value="KS-3-4 chess" />
-    <MESSAGE value="KS-3-5 chess rasparsing" />
-    <MESSAGE value="Merge remote-tracking branch 'origin/master'" />
-    <option name="LAST_COMMIT_MESSAGE" value="Merge remote-tracking branch 'origin/master'" />
   </component>
 </project>
