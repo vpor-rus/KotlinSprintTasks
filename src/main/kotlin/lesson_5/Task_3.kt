@@ -27,9 +27,11 @@ fun main() {
     println("Введите число от 0 до 42")
     val secondEntredNumber = readln().toInt()
 
-    if ((firstEntredNumber == lotteryNumberFirst && secondEntredNumber == lotteryNumberSecond) || (firstEntredNumber == lotteryNumberSecond && secondEntredNumber == lotteryNumberFirst)) {
+    if ((firstEntredNumber == lotteryNumberFirst && secondEntredNumber == lotteryNumberSecond) ||
+        (firstEntredNumber == lotteryNumberSecond && secondEntredNumber == lotteryNumberFirst)) {
         println("Поздравляем! Вы выиграли главный приз!")
-    } else if (firstEntredNumber == lotteryNumberFirst || secondEntredNumber == lotteryNumberSecond || firstEntredNumber == lotteryNumberSecond || secondEntredNumber == lotteryNumberFirst) {
+    } else if (firstEntredNumber == lotteryNumberFirst || secondEntredNumber == lotteryNumberSecond ||
+                firstEntredNumber == lotteryNumberSecond || secondEntredNumber == lotteryNumberFirst) {
         println("Вы выиграли утешительный приз!")
     } else {
         println("Неудача!")
