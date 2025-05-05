@@ -39,16 +39,17 @@ fun main() {
     println("Суперкарго, отчитайтесь о количестве провизии на борту")
     val boxesOnBoard: Int = readln().toInt()
 
-    println("На берегу. Нам позволяет погода оправится в путь? false/true")
+    println("Эй, на берегу. Погода позволяет оправится в путь? false/true")
     val relevantWeatherCondition: Boolean = readln().toBoolean()
 
-    letsGoCapitan = ((caseIsServiceable == TRUE) && (shipCrew in (MINIMMUM_CREW..MAXIMUM_CREW)  &&
-            (boxesOnBoard >= MINIMUM_BOXES) && (relevantWeatherCondition == TRUE)) ||
-            ((shipCrew == MAXIMUM_CREW) && (relevantWeatherCondition == TRUE) && boxesOnBoard >= MINIMUM_BOXES))
+    letsGoCapitan = ((caseIsServiceable == REQUIRED_CONDITION) && (shipCrew in (MINIMMUM_CREW..MAXIMUM_CREW)  &&
+            (boxesOnBoard >= MINIMUM_BOXES) && (relevantWeatherCondition == REQUIRED_CONDITION)) ||
+            ((shipCrew == MAXIMUM_CREW) && (relevantWeatherCondition == REQUIRED_CONDITION) && boxesOnBoard >= MINIMUM_BOXES))
 
     println("От винта: $letsGoCapitan")
+
 }
 const val MINIMMUM_CREW = 55
 const val MAXIMUM_CREW = 70
 const val MINIMUM_BOXES = 50
-const val TRUE = true
+const val REQUIRED_CONDITION = true
