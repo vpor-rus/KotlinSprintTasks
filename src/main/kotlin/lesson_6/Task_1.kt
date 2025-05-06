@@ -15,17 +15,17 @@ fun main() {
 
     println("Для входа в систему введите ваш логин и пароль\n" +
             "Введите логин")
-    var newLogin = readln()
-    while ((newLogin.equals(userLogin)) == NON_ADMISSION_CRITERIA ) {
-        println("Логин не верен, введите правильный")
-        newLogin = readln()
+
+    do { println("Для входа введите логин")
+       var newLogin = readln()
     }
-    println("Введите пароль")
-    var newPassword = readln()
-    while (newPassword.equals(userPassword) == NON_ADMISSION_CRITERIA) {
-        println("Пароль не верен, введите правильный")
-        newPassword = readln()
+    while ((newLogin.equals(userLogin)) == NON_ADMISSION_CRITERIA )
+
+    do { println("Для входа введите пароль")
+        var newPassword = readln()
     }
+    while (newPassword.equals(userPassword) == NON_ADMISSION_CRITERIA)
+
     println("Авторизация прошла успешно!")
 }
 const val NON_ADMISSION_CRITERIA = false
