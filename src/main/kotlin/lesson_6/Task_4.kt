@@ -26,7 +26,7 @@ fun main() {
         counter++
     }
 
-    if (counter < 6) {
+    if (counter <= 5 && interNumber == happyNumer) {
         println("Это была великолепная игра!")
     } else {
         println("Было загадано число $happyNumer")
