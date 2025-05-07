@@ -11,7 +11,7 @@ fun main() {
     for (counter in 1 .. 3) {
        var symbolWithAlphabet = alphabeticSymbols.random()
        var numberCharacter = numberCharacterString.random()
-        superPuperPassword = "$superPuperPassword$symbolWithAlphabet$numberCharacter"
+        superPuperPassword = superPuperPassword + symbolWithAlphabet + numberCharacter
     }
     println("$superPuperPassword")
 }
