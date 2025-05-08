@@ -9,17 +9,18 @@ package org.example.lesson_7
 – минимальная длина пароля 6 символов.*/
 
 fun main() {
-    val upperAlphabeticSymbols = "ABCDEFGHIJKLMNOPQRSTVWXYZ"
-    val lowerAlphabeticSymbols = "abcdefghijklmnopqrstvwxyz"
-    val numberSymbols = "0123456789"
-    var passwordEdit= ""
+    val upperAlphabeticSymbols = ('A'..'Z').random()
+    val lowerAlphabeticSymbols = ('a'..'z').random()
+    val numberSymbols = ('0'..'9').random()
+    var oneSymbol: String
+    var passwordEdit=mutableListOf<String>()
 
     println("Введите необходимую длину пароля.\n Напоминаю, не менее 6 символов")
     val lenghtPassword = readln().toInt()
+
     for (i in 1 .. lenghtPassword) {
-        val oneSymbol = ("${upperAlphabeticSymbols.random()}${lowerAlphabeticSymbols.random()}" +
-                "${numberSymbols.random()}").random()
-     passwordEdit = passwordEdit + oneSymbol
+        oneSymbol = ("$upperAlphabeticSymbols$lowerAlphabeticSymbols$numberSymbols").random().toString()
+     passwordEdit.add(oneSymbol)
     }
-    println("$passwordEdit")
+    passwordEdit.forEach { it: String -> print(it) }
 }
