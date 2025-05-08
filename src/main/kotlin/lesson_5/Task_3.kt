@@ -25,13 +25,13 @@ fun main() {
     val firstEntredNumber = readln().toInt()
 
     println("Введите число от 0 до 42")
-    val secondEntredNumber = readln().toInt()
+    val secondEnterNumber = readln().toInt()
 
-    if ((firstEntredNumber == lotteryNumberFirst && secondEntredNumber == lotteryNumberSecond) ||
-        (firstEntredNumber == lotteryNumberSecond && secondEntredNumber == lotteryNumberFirst)) {
+    if ((firstEntredNumber == lotteryNumberFirst && secondEnterNumber == lotteryNumberSecond) ||
+        (firstEntredNumber == lotteryNumberSecond && secondEnterNumber == lotteryNumberFirst)) {
         println("Поздравляем! Вы выиграли главный приз!")
-    } else if (firstEntredNumber == lotteryNumberFirst || secondEntredNumber == lotteryNumberSecond ||
-                firstEntredNumber == lotteryNumberSecond || secondEntredNumber == lotteryNumberFirst) {
+    } else if (firstEntredNumber == lotteryNumberFirst || secondEnterNumber == lotteryNumberSecond ||
+                firstEntredNumber == lotteryNumberSecond || secondEnterNumber == lotteryNumberFirst) {
         println("Вы выиграли утешительный приз!")
     } else {
         println("Неудача!")
