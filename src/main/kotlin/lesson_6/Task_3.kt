@@ -9,12 +9,10 @@ package org.example.lesson_6
 
 fun  main() {
     println("Напишите время отсечки в секундах")
-    val requiredTime = readln().toInt()
+    var requiredTime = readln().toInt()
 
-    var timeInterval = START_COUNTDOWN
-    while (timeInterval < requiredTime) {
-        println("Осталось секунд(а) ${requiredTime - timeInterval}")
-        timeInterval = timeInterval + 1
+    while (requiredTime > 0) {
+        println("Осталось секунд(а) ${requiredTime--}")
         Thread.sleep(1000)
     }
     println("Время вышло")
