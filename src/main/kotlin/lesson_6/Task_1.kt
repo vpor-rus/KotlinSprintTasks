@@ -11,21 +11,16 @@ fun main() {
     println("Придумайте логин")
     val userLogin = readln()
     println("Придумайте пароль")
-    val  userPassword = readln()
+    val userPassword = readln()
 
-    println("Для входа в систему введите ваш логин и пароль\n" +
-            "Введите логин")
-
-    do { println("Для входа введите логин")
-       var newLogin = readln()
-    }
-    while ((newLogin.equals(userLogin)) == NON_ADMISSION_CRITERIA )
-
-    do { println("Для входа введите пароль")
+    do {
+        println("Для входа введите логин и пароль")
+        var newLogin = readln()
         var newPassword = readln()
-    }
-    while (newPassword.equals(userPassword) == NON_ADMISSION_CRITERIA)
+    } while (newLogin.equals(userLogin) == NON_ADMISSION_CRITERIA ||
+        newPassword.equals(userPassword) == NON_ADMISSION_CRITERIA)
 
     println("Авторизация прошла успешно!")
 }
+
 const val NON_ADMISSION_CRITERIA = false
