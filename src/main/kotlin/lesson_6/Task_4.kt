@@ -12,21 +12,20 @@ import kotlin.random.Random
  – после истечения попыток выводится сообщение “Было загадано число N”.*/
 
 fun main() {
-    val happyNumer = Random.nextInt(1, 9)
+    val happyNumer = (1 .. 9).random()
     println("Для проверки выведено значение рандомного числа $happyNumer")
 
-    var counter = 1
-    println("Введите число от 1 до 9")
+    var interNumber: Int
+    var counter = 5
 
-    var interNumber = readln().toInt()
-
-    while (counter < 5 && interNumber != happyNumer) {
-        println("Неверно, введите следующую попытку")
+    do {
+        println("Введите число от 1 до 9")
         interNumber = readln().toInt()
-        counter++
+        counter--
     }
+    while (counter > 0 && interNumber != happyNumer)
 
-    if (counter <= 5 && interNumber == happyNumer) {
+    if ((counter in 1 .. 5) && (interNumber == happyNumer)) {
         println("Это была великолепная игра!")
     } else {
         println("Было загадано число $happyNumer")
