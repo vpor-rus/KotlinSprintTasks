@@ -8,13 +8,9 @@ package org.example.lesson_6
 fun main() {
     println("Напишите время отсечки в секундах")
     val requiredTime = readln().toInt()
-
-    var timeInterval = START_COUNTDOWN
-    while (timeInterval < requiredTime) {
-        timeInterval = timeInterval + 1
-        Thread.sleep(1000)
-    }
-    println("Прошло $timeInterval секунд(ы)")
+    val timeInMilliseconds = requiredTime * ONE_SECOND_TIME
+    Thread.sleep(timeInMilliseconds)
+    println("Прошло $requiredTime секунд(а)")
 }
 
-const val START_COUNTDOWN = 0
+const val ONE_SECOND_TIME = 1000L
