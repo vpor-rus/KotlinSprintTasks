@@ -15,24 +15,23 @@ import kotlin.random.Random
 Если три попытки оказались неудачными, вывести сообщение "Доступ запрещен".*/
 
 fun main() {
-    val randomOne = Random.nextInt(1, 9)
-    val randomeTwo = Random.nextInt(1, 9)
+    val randomOne = (1..9).random()
+    val randomeTwo = (1..9).random()
 
-    println(
-        "ПРОВЕРКА ЧТО ВЫ НЕ РОБОТ\n" + "введите  результат $randomOne + $randomeTwo"
-    )
+    println("ПРОВЕРКА ЧТО ВЫ НЕ РОБОТ\n")
 
+    print("введите  результат $randomOne + $randomeTwo = ")
     var answerYour = readln().toInt()
-    var counter = 1
-    while (counter < 3 && answerYour != (randomOne + randomeTwo)) {
-        println("осталось ${3 - counter} попытки(ка)")
-        counter = counter + 1
-        answerYour = readln().toInt()
+    var counter = 3
+
+    while (counter > 0 && answerYour != (randomOne + randomeTwo)) {
+    println("осталось ${counter--} попытки(ка)")
+    answerYour = readln().toInt()
     }
 
     if (counter <= 3 && answerYour == randomOne + randomeTwo) {
         println("Добро пожаловать!")
     } else {
-      println("Доступ запрещен")
+        println("Доступ запрещен")
     }
 }
