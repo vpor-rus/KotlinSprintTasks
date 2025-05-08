@@ -15,12 +15,8 @@ fun main() {
 
     do {
         println("Для входа введите логин и пароль")
-        var newLogin = readln()
-        var newPassword = readln()
-    } while (newLogin.equals(userLogin) == NON_ADMISSION_CRITERIA ||
-        newPassword.equals(userPassword) == NON_ADMISSION_CRITERIA)
-
+        val newLogin = readln()
+        val newPassword = readln()
+    } while (newLogin != userLogin || newPassword != userPassword)
     println("Авторизация прошла успешно!")
 }
-
-const val NON_ADMISSION_CRITERIA = false
