@@ -13,11 +13,13 @@ import kotlin.random.Random
 – Если код введен верно – программа отображает приветствие и завершает работу.*/
 
 fun main() {
+    var smsCode: Int
+    var enterCode: Int
 
     do {
-        var smsCode = Random.nextInt(1000, 9999)
+        smsCode = Random.nextInt(1000, 9999)
         println("Ваш код авторизации: $smsCode")
-        var enterCode = readln().toInt()
+        enterCode = readln().toInt()
     } while (smsCode != enterCode)
     println("Добро пожаловать")
 }
