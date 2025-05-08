@@ -5,14 +5,13 @@ package org.example.lesson_7
  (без специальных символов). Например, k5p6m2. Выведи сгенерированный пароль в консоль.*/
 
 fun main() {
-    val alphabeticSymbols = "abcdefghijklmnopqrstvwxyz"
-    var numberCharacterString = "123456789"
+    val alphabeticSymbols = ('a'..'z').random()
+    val numberCharacterString = ('0'..'9').random()
     var superPuperPassword = ""
-    for (counter in 1 .. 3) {
-       var symbolWithAlphabet = alphabeticSymbols.random()
-       var numberCharacter = numberCharacterString.random()
-        superPuperPassword = superPuperPassword + symbolWithAlphabet + numberCharacter
+
+    for (counter in 1..3) {
+    superPuperPassword = superPuperPassword + alphabeticSymbols + numberCharacterString
     }
-    println("$superPuperPassword")
+    println(superPuperPassword)
 }
 
