@@ -13,7 +13,7 @@ import kotlin.random.Random
 
 fun main() {
     val happyNumer = Random.nextInt(1, 9)
-         println("Для проверки выведено значение рандомного числа $happyNumer")
+     //println("Для проверки выведено значение рандомного числа $happyNumer")
 
     var counter = 1
     println("Введите число от 1 до 9")
