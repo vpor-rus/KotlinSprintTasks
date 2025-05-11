@@ -25,12 +25,14 @@ fun main() {
         randomeTwo = (1..9).random()
         print("введите  результат $randomOne + $randomeTwo = ")
         answerYour = readln().toInt()
-        println("осталось ${counter--} попытки(ка)")
-    } while (counter > 0 && answerYour != (randomOne + randomeTwo))
+        if (answerYour != (randomOne + randomeTwo)){
+            println("осталось ${--counter} попытки(ка)")
+        }
+        else if (counter <= 3 && answerYour == randomOne + randomeTwo) {
+            println("Добро пожаловать!")
+            return
+        }
+    } while (counter > 0)
+    println("Доступ запрещен")
 
-    if (counter <= 3 && answerYour == randomOne + randomeTwo) {
-        println("Добро пожаловать!")
-    } else {
-        println("Доступ запрещен")
-    }
 }
