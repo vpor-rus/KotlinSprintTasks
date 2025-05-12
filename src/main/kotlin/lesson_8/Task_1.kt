@@ -16,10 +16,13 @@ fun main() {
     val mostlyPorno = 101010
     val sundayView = 7
 
-    val weeklyStatistic = arrayOf(mondayView, tuesdayView, wednesdayView, thursdayView, fridayView,
-        mostlyPorno, sundayView)
+    val weeklyStatistic = arrayOf(mondayView,
+                                  tuesdayView,
+                                  wednesdayView,
+                                  thursdayView,
+                                  fridayView,
+                                  mostlyPorno,
+                                  sundayView)
 
-    val weeklyView = weeklyStatistic[0] + weeklyStatistic[1] + weeklyStatistic[2] +
-            weeklyStatistic[3] + weeklyStatistic[4] + weeklyStatistic[5] + weeklyStatistic[6]
-    println(weeklyView)
+    println(weeklyStatistic.sum())
 }
