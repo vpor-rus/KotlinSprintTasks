@@ -29,7 +29,7 @@ fun main() {
     answerYour = readln().toInt()
     }
 
-    if (counter <= 3 && answerYour == randomOne + randomeTwo) {
+    if (answerYour == randomOne + randomeTwo) {
         println("Добро пожаловать!")
     } else {
         println("Доступ запрещен")
