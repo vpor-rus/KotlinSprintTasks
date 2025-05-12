@@ -7,10 +7,20 @@ import kotlin.random.Random
  пароль в консоль.*/
 
 fun main() {
-    val randomOne = ('a'..'z').random()
-    val randomeTwo = (1..9).random()
+    val randomAlphabet = ('a'..'z').toList().joinToString(separator = "")
+    val randomeNumber = (1..9).toList().joinToString(separator = "")
 
+    var counter = 3
+    var characterSet = mutableListOf<Char>()
 
+    do {
+        val randomeOne = randomAlphabet.random()
+        characterSet.add(randomeOne)
+        val randomeTwo = randomeNumber.random()
+        characterSet.add(randomeTwo)
+        counter--
+    } while (counter > 0)
 
-    }
+    val editPassword = characterSet.joinToString(separator = "")
+    println("$editPassword")
 }
