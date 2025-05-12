@@ -26,6 +26,7 @@ fun main() {
     for (i in 4 .. lenghtPassword) {
         editPassword.add((upperAlphabeticSymbols + lowerAlphabeticSymbols + numberSymbols).random() as Char)
     }
+
     editPassword.shuffle()
     println(editPassword.joinToString(separator = ""))
 
