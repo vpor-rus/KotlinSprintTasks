@@ -29,5 +29,4 @@ fun main() {
 
     editPassword.shuffle()
     println(editPassword.joinToString(separator = ""))
-
 }
