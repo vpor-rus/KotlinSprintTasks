@@ -12,10 +12,10 @@ fun main() {
     val characterSet = mutableListOf<Char>()
 
     do {
-        val randomeOne = setAlphabet.random()
-        characterSet.add(randomeOne)
-        val randomeTwo = setNumber.random()
-        characterSet.add(randomeTwo)
+        val randomOne = setAlphabet.random()
+        characterSet.add(randomOne)
+        val randomTwo = setNumber.random()
+        characterSet.add(randomTwo)
         counter--
     } while (counter > 0)
 
