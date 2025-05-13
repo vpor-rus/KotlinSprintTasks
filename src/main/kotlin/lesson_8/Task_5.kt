@@ -10,19 +10,17 @@ package org.example.lesson_8
 Выведи полученные ингредиенты в консоль через запятую.*/
 
 fun main() {
-    print("Введите количество продуктов в списке: ")
-    var numberIngredients = readln().toInt()
-    var arrayIngredients = arrayOf<String>()
-    var indexArrayIngredients = 0
-
-    do {
-        print("Введите наименование ингридиента: ")
-    val newIngredients = readln()
-      arrayIngredients[indexArrayIngredients++] = newIngredients
-        numberIngredients--
-    } while ( numberIngredients > 0)
-
-    for (i in arrayIngredients) {
-        println("Ингридиент ${arrayIngredients.indexOf(i) + 1} $i")
+    print("Введите количество ингридиентов: ")
+   val numberIngredients = readln().toInt()
+    var setIngredients = ""
+    println("Введите список ингридиентов,\n" +
+            " после каждого введения ставьте запятую и завершайте нажатием Enter")
+    for (i in 1..numberIngredients) {
+        val newIngredient = readln()
+      setIngredients = setIngredients + newIngredient
     }
+
+   val listIngredients = setIngredients.split(",").toTypedArray()//доработать так как нельзя использовать список
+
+    println(listIngredients)
 }
