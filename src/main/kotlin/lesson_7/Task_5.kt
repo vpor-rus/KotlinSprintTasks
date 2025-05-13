@@ -15,7 +15,7 @@ fun main() {
 
     println("Введите необходимую длину пароля.\n Напоминаю, не менее 6 символов")
     val lenghtPassword = readln().toInt()
-    var editPassword = mutableListOf<Char>()
+    val editPassword = mutableListOf<Char>()
     //ниже набор обязательных, теперь уже 3-х символов
 
         editPassword.add(upperAlphabeticSymbols.random())
@@ -23,8 +23,10 @@ fun main() {
         editPassword.add(numberSymbols.random())
 
     //донабор символов более 3х
+    val setSymbols = upperAlphabeticSymbols + lowerAlphabeticSymbols + numberSymbols
+
     for (i in 4 .. lenghtPassword) {
-        editPassword.add((upperAlphabeticSymbols + lowerAlphabeticSymbols + numberSymbols).random() as Char)
+        editPassword.add(setSymbols.random())
     }
 
     editPassword.shuffle()
