@@ -13,24 +13,22 @@ package org.example.lesson_8
 */
 
 fun main() {
-    var arrayIngredients = arrayOf("Вода", "Соль", "Морковь", "Тофу", "Капуста")
-    for (i in arrayIngredients) {
-        println("Ингридиент ${arrayIngredients.indexOf(i) + 1} $i")
-    }
+    val arrayIngredients = arrayOf("Вода", "Соль", "Морковь", "Тофу", "Капуста")
+    println("Ингридиенты: ${arrayIngredients.joinToString()}")
+
     print("Какой ингредиент вы хотите изменить?\n Какой продукт вы хотите заменить: ")
     val nameIngredient = readln()
-
-    if (arrayIngredients.contains(nameIngredient)) {
-        print( "Ингридиент $nameIngredient есть в списке\n" +
-                "Какой продукт вы хотите добавить: ")
+    val indexOfIngredients = arrayIngredients.contains(nameIngredient)
+    if (indexOfIngredients) {
+        print(
+            "Ингридиент $nameIngredient есть в списке\n" +
+                    "Какой продукт вы хотите добавить: "
+        )
         val newNameIngredient = readln()
-        val indexOfIngredients = arrayIngredients.indexOf(nameIngredient)
-        arrayIngredients.set(indexOfIngredients, newNameIngredient)
+        arrayIngredients[arrayIngredients.indexOf(nameIngredient)] = newNameIngredient
 
         println("Готово! Вы сохранили следующий список:")
-        for (i in arrayIngredients) {
-            println("${arrayIngredients.indexOf(i) + 1} $i")
-        }
+        println("Ингридиенты: ${arrayIngredients.joinToString()}")
     } else {
         println("Продукта $nameIngredient нет в списке")
     }
