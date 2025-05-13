@@ -20,7 +20,7 @@ fun main() {
       setIngredients = setIngredients + newIngredient
     }
 
-   val listIngredients = setIngredients.split(",").toTypedArray()//доработать так как нельзя использовать список
+   val arrayIngredients = setIngredients.split(",").toTypedArray()//доработать так как нельзя использовать список
 
-    println(listIngredients)
+    println(arrayIngredients.joinToString())
 }
