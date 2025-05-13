@@ -14,14 +14,15 @@ package org.example.lesson_8
 */
 
 fun main() {
-   val ingredientsForBimbimbab = arrayOf("Рис", "Морская капуста", "Яйцо", "Фарш", "Соль", "Перцовая паста")
+    val ingredientsForBimbimbab = arrayOf("Рис", "Морская капуста", "Яйцо", "Фарш", "Соль", "Перцовая паста")
     println("Какой продукт вас интересует?")
-    val whatAreYourNeed = readln()
+    val ingredientToFind = readln()
 
-    for (i in 0 until ingredientsForBimbimbab.size) {
-         if (whatAreYourNeed == ingredientsForBimbimbab[i]) {
-            println("Ингредиент $whatAreYourNeed в рецепте есть")
-            return}
+    for (i in ingredientsForBimbimbab.size) {
+        if (ingredientToFind == ingredientsForBimbimbab[i]) {
+            println("Ингредиент $ingredientToFind в рецепте есть")
+            return
+        }
     }
     println("такого ингридиента в рецепте нет")
 }
