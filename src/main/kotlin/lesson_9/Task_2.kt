@@ -15,13 +15,17 @@ package org.example.lesson_9
 
 fun main() {
     val lisIngredient = mutableListOf("Хлеб", "Рис", "Мясо")
-    print("В рецепте есть базовые ингридиенты: $lisIngredient")\
+    println("В рецепте есть базовые ингридиенты: $lisIngredient")
     print("Желаете добавить еще? ")
     val answerAddIngredient = readln()
-    if (answerAddIngredient == "да") {
-        print("Какой ингридиент вы хотите добавить?")
-
+    if (answerAddIngredient.equals(DESIRE_TO_ADD, true)) {
+        print("Какой ингридиент вы хотите добавить? ")
+        val newIngredient = readln()
+        lisIngredient.add(newIngredient)
+        println("Теперь в рецепте есть следующие ингридиенты: $lisIngredient")
     } else {
         return
     }
 }
+
+const val DESIRE_TO_ADD = "да"
