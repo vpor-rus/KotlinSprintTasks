@@ -18,7 +18,7 @@ fun main() {
 
     print("Какой ингредиент вы хотите изменить?\n Какой продукт вы хотите заменить: ")
     val nameIngredient = readln()
-    val indexOfIngredients = arrayIngredients.contains(nameIngredient)
+    val indexOfIngredients = arrayIngredients.indexOf(nameIngredient)//тут я переписал contains на indexOf
     if (indexOfIngredients) {
         print(
             "Ингридиент $nameIngredient есть в списке\n" +
