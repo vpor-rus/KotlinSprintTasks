@@ -8,5 +8,9 @@ package org.example.lesson_9
  – выведи все ингредиенты, каждый с новой строки*/
 
 fun main () {
+val listIngredients = listOf("Сок", "Вода", "Молоко", "Бульон")
 
+   for (i in listIngredients) {
+       println(i)
+   }
 }
