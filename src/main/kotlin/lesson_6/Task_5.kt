@@ -26,8 +26,7 @@ fun main() {
 
         if (answerYour != (randomOne + randomeTwo)) {
             println("осталось ${--counter} попытки(ка)")
-        }
-        else if(answerYour == randomOne + randomeTwo) {
+        } else {
             println("Добро пожаловать!")
             return
         }
