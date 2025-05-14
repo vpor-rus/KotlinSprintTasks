@@ -14,15 +14,15 @@ package org.example.lesson_9
         "Теперь в рецепте есть следующие ингредиенты: [список_ингредиентов]".*/
 
 fun main() {
-    val lisIngredient = mutableListOf("Хлеб", "Рис", "Мясо")
-    println("В рецепте есть базовые ингридиенты: $lisIngredient")
+    val listIngredient = mutableListOf("Хлеб", "Рис", "Мясо")
+    println("В рецепте есть базовые ингридиенты: $listIngredient")
     print("Желаете добавить еще? ")
     val answerAddIngredient = readln()
     if (answerAddIngredient.equals(DESIRE_TO_ADD, true)) {
         print("Какой ингридиент вы хотите добавить? ")
         val newIngredient = readln()
-        lisIngredient.add(newIngredient)
-        println("Теперь в рецепте есть следующие ингридиенты: $lisIngredient")
+        listIngredient.add(newIngredient)
+        println("Теперь в рецепте есть следующие ингридиенты: $listIngredient")
     } else {
         return
     }
