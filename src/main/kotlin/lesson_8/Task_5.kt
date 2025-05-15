@@ -11,13 +11,14 @@ package org.example.lesson_8
 
 fun main() {
     print("Введите количество ингридиентов: ")
-    var numberIngredients = readln().toInt()
-    var arrayIngredients = emptyArray<String>()
-   for ()) {
+    val numberIngredients = readln().toInt()
+    var arrayIngredients = arrayOfNulls<String>(numberIngredients)
+
+   for (i in 0 until numberIngredients) {
        print("Введите ингредиент: ")
        val newIngredient = readln()
        arrayIngredients.set(i, newIngredient)
-       println(arrayIngredients.joinToString())
-    }
+   }
 
+    println(arrayIngredients.joinToString())
 }
