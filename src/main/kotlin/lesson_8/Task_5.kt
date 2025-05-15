@@ -12,11 +12,11 @@ package org.example.lesson_8
 fun main() {
     print("Введите количество ингридиентов: ")
     var numberIngredients = readln().toInt()
-
+    var arrayIngredients = emptyArray<String>()
    while (numberIngredients > 0) {
        print("Введите ингредиент: ")
        val newIngredient = readln()
-       var arrayIngredients = arrayOf(newIngredient)
+       arrayIngredients
        numberIngredients--
        println(arrayIngredients.joinToString())
     }
