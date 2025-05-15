@@ -12,12 +12,12 @@ package org.example.lesson_8
 fun main() {
     print("Введите количество ингридиентов: ")
     val numberIngredients = readln().toInt()
-    var arrayIngredients = arrayOfNulls<String>(numberIngredients)
+    val arrayIngredients = Array(numberIngredients) {""}
 
    for (i in 0 until numberIngredients) {
        print("Введите ингредиент: ")
        val newIngredient = readln()
-       arrayIngredients.set(i, newIngredient)
+       arrayIngredients[i] = newIngredient
    }
 
     println(arrayIngredients.joinToString())
