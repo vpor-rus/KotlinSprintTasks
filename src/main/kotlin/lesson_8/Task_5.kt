@@ -18,6 +18,7 @@ fun main() {
        val newIngredient = readln()
        var arrayIngredients = arrayOf(newIngredient)
        numberIngredients--
+       println(arrayIngredients.joinToString())
     }
-    println(arrayI)
+
 }
