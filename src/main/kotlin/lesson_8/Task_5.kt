@@ -13,11 +13,10 @@ fun main() {
     print("Введите количество ингридиентов: ")
     var numberIngredients = readln().toInt()
     var arrayIngredients = emptyArray<String>()
-   while (numberIngredients > 0) {
+   for ()) {
        print("Введите ингредиент: ")
        val newIngredient = readln()
-       arrayIngredients
-       numberIngredients--
+       arrayIngredients.set(i, newIngredient)
        println(arrayIngredients.joinToString())
     }
 
