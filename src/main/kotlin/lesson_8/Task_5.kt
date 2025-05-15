@@ -11,15 +11,13 @@ package org.example.lesson_8
 
 fun main() {
     print("Введите количество ингридиентов: ")
-   val numberIngredients = readln().toInt()
-    var setIngredients = ""
-    println("Введите список ингридиентов,\n" +
-            " после каждого введения ставьте запятую и завершайте нажатием Enter")
-    for (i in 1..numberIngredients) {
-        val newIngredient = readln()
-      setIngredients = setIngredients + newIngredient
-    }
+    var numberIngredients = readln().toInt()
 
-   val arrayIngredients = setIngredients.split(",").toTypedArray()
-    println(arrayIngredients.joinToString())
+   while (numberIngredients > 0) {
+       print("Введите ингредиент: ")
+       val newIngredient = readln()
+       var arrayIngredients = arrayOf(newIngredient)
+       numberIngredients--
+    }
+    println(arrayI)
 }
