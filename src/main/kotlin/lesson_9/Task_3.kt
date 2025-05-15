@@ -12,8 +12,10 @@ package org.example.lesson_9
 fun main() {
     print("Введите количество порций: ")
     val numberOfServings = readln().toInt()
-    val listOmletIngredients = mutableListOf("Яиц - $numberOfServings шт",
-                                            "молока - ${numberOfServings * 50} мл",
-                                            "сливочного масла ${numberOfServings * 15} гр" )
-    print("На $numberOfServings порций вам понадобится: ${listOmletIngredients.joinToString()}")
+    val startlistOmletIngredients = mutableListOf(1, 50, 15)
+
+      print("На $numberOfServings порций вам понадобится: " +
+              "Яиц - ${startlistOmletIngredients[0] * numberOfServings} шт, " +
+              "молока - ${startlistOmletIngredients[1] * numberOfServings} мл, " +
+              "сливочного масла - ${startlistOmletIngredients[2] * numberOfServings} гр")
 }
