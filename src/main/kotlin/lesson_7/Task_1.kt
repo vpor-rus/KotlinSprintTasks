@@ -6,7 +6,7 @@ package org.example.lesson_7
 
 fun main() {
     val setAlphabet = 'a'..'z'
-    val setNumber = 0..9
+    val setNumber = '0'..'9'
 
     var counter = 3
     val characterSet = mutableListOf<Char>()
