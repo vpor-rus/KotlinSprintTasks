@@ -8,7 +8,7 @@ package org.example.lesson_9
 - первый элемент должен быть распечатан с заглавной буквы.*/
 
 fun main() {
-    val listFiveIngredients = mutableListOf("")
+    val listFiveIngredients = mutableListOf<String>()
     println("Введите пять названий ингредиентов (каждый по отдельности)")
     for (i in 1..5) {
         print("Введите ингредиент $i: ")
@@ -16,6 +16,7 @@ fun main() {
         listFiveIngredients.add(newIngredients)
     }
 
-    listFiveIngredients.sorted()
-       print(listFiveIngredients)
+    listFiveIngredients.sort()
+    listFiveIngredients[0] = listFiveIngredients[0].replaceFirstChar { it.uppercase() }
+    print(listFiveIngredients)
 }
