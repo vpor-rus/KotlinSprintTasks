@@ -13,7 +13,7 @@ fun main() {
     print("ход игрока: ")
     val stepPlayer = rundomNumber()
     println(stepPlayer)
-    print("ход компъютера:  ")
+    print("ход компьютера:  ")
     val stepComputer = rundomNumber()
     println(stepComputer)
     resultComparingNumbers(stepPlayer, stepComputer)
@@ -22,9 +22,9 @@ fun main() {
 fun rundomNumber(): Int? = (0..9).random()
 
 fun resultComparingNumbers(stepPlayer: Int?, stepComputer: Int?) {
-    if (stepComputer > stepPlayer) {
+    if (stepComputer?: 0 > stepPlayer?: 0) {
         println("Победила машина")
-    }else if (stepComputer < stepPlayer) {
+    }else if (stepComputer?: 0 < stepPlayer?: 0) {
         println("Победило человечество")
     } else {
         println("Победила дружба")
