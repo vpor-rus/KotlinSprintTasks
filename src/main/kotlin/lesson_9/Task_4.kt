@@ -10,6 +10,7 @@ package org.example.lesson_9
 
 fun main() {
 
-
+    print("Введи 5 ингредиентов, перечисленных через “, ” (запятая с пробелом)")
+    val newFiveIngredients = readln()
 
 }
