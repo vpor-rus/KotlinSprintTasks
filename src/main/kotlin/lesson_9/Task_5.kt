@@ -8,15 +8,15 @@ package org.example.lesson_9
 - первый элемент должен быть распечатан с заглавной буквы.*/
 
 fun main() {
-    val listFiveIngredients = mutableListOf<String>()
+    val setFiveIngredients = mutableSetOf<String>()
     println("Введите пять названий ингредиентов (каждый по отдельности)")
-    for (i in 1..5) {
+    for (i in 1..5) { //добавить алгоритм который проверяет количество ячеек в mutableSet
         print("Введите ингредиент $i: ")
         val newIngredients = readln()
-        listFiveIngredients.add(newIngredients)
+        setFiveIngredients.add(newIngredients)
     }
 
-    listFiveIngredients.sort()
-    listFiveIngredients[0] = listFiveIngredients[0].replaceFirstChar { it.uppercase() }
-    print(listFiveIngredients)
+    setFiveIngredients.sorted() //обойти запрет на операции с ячейками set
+
+    print(setFiveIngredients)
 }
