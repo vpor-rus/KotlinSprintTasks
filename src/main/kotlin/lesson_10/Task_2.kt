@@ -13,16 +13,16 @@ package org.example.lesson_10
 fun main() {
     print("Введите логин:  ")
     val newLogin = enterSymbols()
-    needLenght(lenghtOfWord(newLogin))
+    needLenght(numberSymbolsOfWord(newLogin))
 
     print("Введите пароль:  ")
     val newPassword = enterSymbols()
-    needLenght(lenghtOfWord(newPassword))
+    needLenght(numberSymbolsOfWord(newPassword))
 }
 
 fun enterSymbols(): String? = readln()
 
-fun lenghtOfWord(simbolsInWord: String?): Int? {
+fun numberSymbolsOfWord(simbolsInWord: String?): Int? {
     return simbolsInWord?.length
 }
 
