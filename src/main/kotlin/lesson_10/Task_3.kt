@@ -9,21 +9,3 @@ package org.example.lesson_10
 - пароль должен содержать цифры от 0 до 9, специальные символы: !"#$%&'()*+,-./ и пробел
 (всего 16 спецсимволов).*/
 
-fun main() {
-    print("Введите необходимую длину пароля")
-    val numberSymbolsOfPassword = readln().toInt()
-
-}
-
-fun randomNumber(): Char? = ('0'..'9').random()
-
-fun randomSymbols(): Char? = (('!'..'/') + ' ').random()
-
-fun stringSymbolsOfPassword(symbolPassword: Char?, numberPassword: Char?, numberSymbolsOfPassword: Int?) {
-   val listSimbols
-    for (i in 1 ..numberSymbolsOfPassword) {
-        if (i % 2 != 0) {
-            numberPassword
-        }
-    }
-}
