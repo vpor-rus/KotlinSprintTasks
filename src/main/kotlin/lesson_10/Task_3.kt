@@ -10,21 +10,29 @@ package org.example.lesson_10
 (всего 16 спецсимволов).*/
 
 fun main() {
-    print("Введите необходимую длину пароля:  ")
-
-        val listSimbols = mutableListOf<Char>()
-        for (i in 1 ..numberSymbolsOfPassword()) {
-            if (i % 2 != 0) {
-                listSimbols.add(randomNumber())
-            } else {
-                listSimbols.add(randomSymbols())
-            }
-        }
-        listSimbols.joinToString()
-
+print("Введите длину пароля: ")
+    val lenghtPassword: Int? = enterNumber()?: 0
+editPassword(lenghtPassword = lenghtPassword?: 0)
 }
-fun numberSymbolsOfPassword(): Int = readln().toInt()
 
-fun randomNumber(): Char = ('0'..'9').random()
+fun enterNumber(): Int? = readln().toInt()
 
-fun randomSymbols(): Char = (('!'..'/') + ' ').random()
+fun randomNumber(): Char? = ('0'..'9').random()
+
+fun randomCharacter(): Char? = ('!'..'/').random()
+
+fun editPassword(lenghtPassword: Int) {
+    for (i in 1..lenghtPassword) {
+        val listSymbolsPassword = mutableListOf<Char?>()
+        if (i % DIVIDER_PARITY != EDIT_PARITY) {
+            listSymbolsPassword.add(randomNumber())
+        } else {
+            listSymbolsPassword.add(randomCharacter())
+        }
+        print(listSymbolsPassword.joinToString(","))
+    }
+}
+
+const val DIVIDER_PARITY = 2
+
+const val EDIT_PARITY = 0
