@@ -10,13 +10,14 @@ package org.example.lesson_9
 fun main() {
     val setFiveIngredients = mutableSetOf<String>()
     println("Введите пять названий ингредиентов (каждый по отдельности)")
-    for (i in 1..5) { //добавить алгоритм который проверяет количество ячеек в mutableSet
-        print("Введите ингредиент $i: ")
+    do {
+        print("Введите ингредиент: ")
         val newIngredients = readln()
         setFiveIngredients.add(newIngredients)
-    }
+    } while (setFiveIngredients.size < 5)
 
-    setFiveIngredients.sorted() //обойти запрет на операции с ячейками set
-
-    print(setFiveIngredients)
+    val listFiveIngredients = setFiveIngredients.toMutableList()
+    listFiveIngredients.sort()
+    listFiveIngredients[0] = listFiveIngredients[0].replaceFirstChar { it.uppercase() }
+    print(listFiveIngredients)
 }
