@@ -12,36 +12,47 @@ package org.example.lesson_10
 
 fun main() {
     println("И пусть победит сильнейший")
-    val playerWin = 0
-    do {
-        courseOfTheGame()
+    var winRoundsPlayer = 0
+        do {
+        val stringEditGame = courseOfTheGame()
+            if (stringEditGame == PLAYER_VICTORY_RATE) {
+                winRoundsPlayer++
+            }
+        println(stringEditGame)
         print("Хотите бросить кости еще раз? Введите Да или Нет:  ")
         val answerGamer = readln()
     } while (nextGamerStep(answerGamer = answerGamer))
 
-    print("Игрок победил: ")
+    print("Игрок победил в: $winRoundsPlayer играх(е)")
 
 }
 
-fun randomeNumber(): Int {
-    return (0..9).random()
-}
+fun randomeNumber(): Int = (0..9).random()
 
-fun courseOfTheGame() {
+
+fun courseOfTheGame(): String? {
+
     val stepPlayer = randomeNumber()
     print("Ход игрока: $stepPlayer\n")
     val stepComputer = randomeNumber()
     print("Ход компьютера: $stepComputer\n")
 
+    val stringEditGame: String
+
      if (stepComputer < stepPlayer) {
-         return println("Победил игрок")
+          stringEditGame = "Победил игрок"
     } else if (stepComputer > stepPlayer) {
-         return println("Победил компьютер")
+        stringEditGame = "Победил компьютер"
     } else {
-         return println("Победила дружба")
+        stringEditGame = "Победила дружба"
     }
+    return  stringEditGame
 }
 
 fun nextGamerStep(answerGamer: String?): Boolean {
-    return answerGamer == "да"
+    return answerGamer == CONSENT_TO_CONTINUE
 }
+
+const val PLAYER_VICTORY_RATE = "Победил игрок"
+
+const val CONSENT_TO_CONTINUE = "Да"
