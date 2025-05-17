@@ -19,6 +19,7 @@ fun main() {
                 winRoundsPlayer++
             }
         println(stringEditGame)
+        println()
         print("Хотите бросить кости еще раз? Введите Да или Нет:  ")
         val answerGamer = readln()
     } while (nextGamerStep(answerGamer = answerGamer))
