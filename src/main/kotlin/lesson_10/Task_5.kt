@@ -29,7 +29,21 @@ fun main() {
 
     val token = autorizationCycle(loginEnter, passworEnter)
 
-    print(token)
+    val welcomeOrNoTrespassing = enterShop(token)
+    print(welcomeOrNoTrespassing)
+}
+
+fun enterShop(_token: String?): String {
+    val autorizationMessage: String
+    if (_token == null) {
+        autorizationMessage = "Доступ в наш магазин вам недоступен!\n" +
+                                "Авторизируйтесь корректно."
+    }    else {
+        autorizationMessage = "Добро пожаловать!\n" +
+                "В нашем магазине вы можете выбрать: \n" +
+                "Лодки, палатки, гидрокостюмы, большой набор удочек и снастей"
+    }
+    return autorizationMessage
 }
 
 fun autorizationCycle(_loginEnter: String?, _enterPassword: String?): String? {
