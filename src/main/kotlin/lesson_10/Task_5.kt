@@ -22,10 +22,34 @@ package org.example.lesson_10
   для корректной авторизации проинициализированы заранее и неизменяемы.*/
 
 fun main() {
-    print("Авторизируйтесь.\n Введите логин: ")
-    val autorizedLogin = readln()
+    print("Введите логин: ")
+    val loginEnter = readln()
     print("Введите пароль: ")
-    val autorizedPassword = readln()
+    val passworEnter = readln()
 
+    val token = autorizationCycle(loginEnter, passworEnter)
 
+    print(token)
 }
+
+fun autorizationCycle(_loginEnter: String?, _enterPassword: String?): String? {
+    val enterToken = mutableListOf<Char>()
+    val symbolsAlpahbet = 'a'..'z'
+    val symbolsAlphabetUpper = 'A'..'Z'
+    val symbolsNumber = '0'..'9'
+    if (_loginEnter == AUTORIZED_LOGIN && _enterPassword == AUTORIZED_PASSWORD) {
+        for (i in 1..SYMBOLS_IN_TOKEN) {
+            val newSymbols = (symbolsAlpahbet + symbolsAlphabetUpper + symbolsNumber).random()
+            enterToken.add(newSymbols)
+        }
+    } else {
+        return null
+    }
+    return enterToken.joinToString(separator = ", ")
+}
+
+const val AUTORIZED_LOGIN = "Dr.Grobov"
+
+const val AUTORIZED_PASSWORD = "nEmoEv%2007$"
+
+const val SYMBOLS_IN_TOKEN = 32
