@@ -11,23 +11,19 @@ package org.example.lesson_10
 
 fun main() {
 print("Введите длину пароля: ")
-    val lenghtPassword: Int? = enterNumber()?: 0
-editPassword(lenghtPassword = lenghtPassword?: 0)
+    val lenghtPassword = readln().toInt()
+editPassword(lenghtPassword = lenghtPassword)
 }
-
-fun enterNumber(): Int? = readln().toInt()
-
-fun randomNumber(): Char? = ('0'..'9').random()
-
-fun randomCharacter(): Char? = ('!'..'/').random()
 
 fun editPassword(lenghtPassword: Int) {
     for (i in 1..lenghtPassword) {
+        val randomNumber: Char = ('0'..'9').random()
+        val randomCharacter: Char = ('!'..'/').random()
         val listSymbolsPassword = mutableListOf<Char?>()
         if (i % DIVIDER_PARITY != EDIT_PARITY) {
-            listSymbolsPassword.add(randomNumber())
+            listSymbolsPassword.add(randomNumber)
         } else {
-            listSymbolsPassword.add(randomCharacter())
+            listSymbolsPassword.add(randomCharacter)
         }
         print(listSymbolsPassword.joinToString(","))
     }
