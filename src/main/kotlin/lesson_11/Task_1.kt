@@ -29,3 +29,10 @@ fun main() {
     println("password superUser: ${superUser.password}")
     println("email adress superUser: ${superUser.emailAdress}")
 }
+
+class User(
+    val id: Int,
+    val login: String,
+    val password: String,
+    val emailAdress: String,
+)
