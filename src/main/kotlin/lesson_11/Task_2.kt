@@ -10,3 +10,15 @@ package org.example.lesson_11
 
 Далее создай объект, заполни информацию “о себе” и замени пароль. В конце выведи
 обновленную информацию о пользователе.*/
+
+fun main() {
+
+    val changeUser = User2(
+        id = 1,
+        login = "kot",
+        password = "qwerty",
+        emailAdress = "telepupkin@gim.com"
+    )
+    changeUser.changePassword()
+    changeUser.userInformation()
+}
