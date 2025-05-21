@@ -44,7 +44,9 @@ fun main() {
         name = "chatRoom_1",
         listOfParticipiants = mutableListOf(user1, user2, user3)
     )
-   print(chatRoom1)
+    println(chatRoom1.listOfParticipiants[0].avatar)
+    println(chatRoom1.listOfParticipiants[0].nikName)
+    println(chatRoom1.listOfParticipiants[0].statusUser)
 }
 
 class ChatRoom(
@@ -53,18 +55,20 @@ class ChatRoom(
     val listOfParticipiants: MutableList<UserInChatRoom>,
 ) {
     fun addNewUser() {
-        listOfParticipiants.add(UserInChatRoom(
-            avatar = readln(),
-            nikName = readln(),
-            statusUser = readln(),
-        ))
+        listOfParticipiants.add(
+            UserInChatRoom(
+                avatar = readln(),
+                nikName = readln(),
+                statusUser = readln(),
+            )
+        )
     }
 }
 
 class UserInChatRoom(
     val avatar: String,
-    val nikName: String,
-    val statusUser: String,
+    var nikName: String,
+    var statusUser: String,
 ) {
     fun newNameAndStatus() {
         nikName = readln()
