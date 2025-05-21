@@ -16,14 +16,14 @@ fun main() {
 class RecipeCategory(
     val categoryDish: String,
     val nameDish: String,
-    val recipeDish: Recipe,
+    val recipeDish: MutableList<Recipe>,
     val favorites: Boolean = false,
 )
 
 class Recipe(
     val nameRecipe: String,
     val numberOfServings: Int,
-    val val listIngredientsDish: MutableList<Ingredients>,
+    val listIngredientsDish: MutableList<Ingredients>,
 )
 
 class Ingredients(
