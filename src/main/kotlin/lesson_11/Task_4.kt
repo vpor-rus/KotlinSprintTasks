@@ -12,3 +12,22 @@ https://www.figma.com/file/89K5JomHGyIkUFUaBKRBXi/RecipesApp?type=design&node-id
 fun main() {
 
 }
+
+class RecipeCategory(
+    val categoryDish: String,
+    val nameDish: String,
+    val recipeDish: Recipe,
+    val favorites: Boolean = false,
+)
+
+class Recipe(
+    val nameRecipe: String,
+    val numberOfServings: Int,
+    val val listIngredientsDish: MutableList<Ingredients>,
+)
+
+class Ingredients(
+    val id: Int,
+    val nameIngredients: String,
+    val quantityPerServing: Int,
+)
