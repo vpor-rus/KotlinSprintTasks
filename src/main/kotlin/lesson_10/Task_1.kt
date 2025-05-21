@@ -29,4 +29,5 @@ fun resultComparingNumbers(stepPlayer: Int?, stepComputer: Int?) {
     } else {
         println("Победила дружба")
     }
+
 }
