@@ -21,3 +21,23 @@ package org.example.lesson_11
 fun main() {
 
 }
+
+class MessageForum(
+    autorId: Int,
+    message: String,
+)
+
+class UserForum(
+    userId: Int,
+    userName: String,
+)
+
+class Forum(
+    val userForum: MutableList<UserForum>,
+) {
+    fun createNewUser(userName: String) {
+        print("Введите имя нового пользователя: ")
+        val _userName = readln()
+        userForum.add(_userName)
+    }
+}
