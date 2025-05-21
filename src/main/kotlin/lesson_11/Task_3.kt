@@ -21,7 +21,30 @@ package org.example.lesson_11
 После проектирования создай объект комнаты с произвольными данными.*/
 
 fun main() {
+    val user1 = UserInChatRoom(
+        avatar = "avatar1",
+        nikName = "malvina",
+        statusUser = "разговаривает",
+    )
 
+    val user2 = UserInChatRoom(
+        avatar = "avatar2",
+        nikName = "artamon",
+        statusUser = "пользователь заглушен",
+    )
+
+    val user3 = UserInChatRoom(
+        avatar = "avatar3",
+        nikName = "pyero",
+        statusUser = "микрофон заглушен",
+    )
+
+    val chatRoom1 = ChatRoom(
+        cover = "COVER",
+        name = "chatRoom_1",
+        listOfParticipiants = mutableListOf(user1, user2, user3)
+    )
+   print(chatRoom1)
 }
 
 class ChatRoom(
@@ -29,12 +52,22 @@ class ChatRoom(
     val name: String,
     val listOfParticipiants: MutableList<UserInChatRoom>,
 ) {
-
+    fun addNewUser() {
+        listOfParticipiants.add(UserInChatRoom(
+            avatar = readln(),
+            nikName = readln(),
+            statusUser = readln(),
+        ))
+    }
 }
 
 class UserInChatRoom(
     val avatar: String,
     val nikName: String,
-    val statusUser: Array<String>,
-)
-
+    val statusUser: String,
+) {
+    fun newNameAndStatus() {
+        nikName = readln()
+        statusUser = readln()
+    }
+}
