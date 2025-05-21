@@ -19,3 +19,22 @@ package org.example.lesson_11
 – обновления статуса (принимает имя пользователя и новый статус).
 
 После проектирования создай объект комнаты с произвольными данными.*/
+
+fun main() {
+
+}
+
+class ChatRoom(
+    val cover: String,
+    val name: String,
+    val listOfParticipiants: MutableList<UserInChatRoom>,
+) {
+
+}
+
+class UserInChatRoom(
+    val avatar: String,
+    val nikName: String,
+    val statusUser: Array<String>,
+)
+
