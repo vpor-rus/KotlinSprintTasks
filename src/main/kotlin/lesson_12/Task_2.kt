@@ -9,5 +9,18 @@ Cоздай объект с произвольными данными и выв�
 
 fun main() {
 
+    val mondayWeather = WeatherDaily(
+        dayTimeTemperature = 18,
+        nightTemperature = 2,
+        precipitation = true,
+    )
+    println(mondayWeather.dayTimeTemperature)
+    println(mondayWeather.nightTemperature)
+    println(mondayWeather.precipitation)
 }
 
+class WeatherDaily(
+    var dayTimeTemperature: Int,
+    var nightTemperature: Int,
+    var precipitation: Boolean,
+)
