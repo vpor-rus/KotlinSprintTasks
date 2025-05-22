@@ -19,6 +19,9 @@ package org.example.lesson_11
 каждого пользователя.*/
 
 fun main() {
+val sakhRiver: Forum(
+    val
+)
 
 }
 
@@ -33,10 +36,12 @@ class UserForum(
 )
 
 class Forum(
-   val userForum: MutableList<UserForum>,
+    val membersForum: MutableList<UserForum>,
 ) {
-    fun createNewUser(userForum: Forum, userName: String):  {
+    fun createNewUser(): MutableList<String> {
     print("Введите имя нового пользователя: ")
-    userForum
+    membersForum.add(element = UserForum)
     print("В форум добавлен новый участник.")
+        return membersForum
+    }
 }
