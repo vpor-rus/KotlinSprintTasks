@@ -54,9 +54,7 @@ class UserForum(
 )
 
 class Forum(
-    val membersForum: UserForum,
-    fisherman2: UserForum,
-    fisherman3: UserForum,
+    val membersForum: MutableList<UserForum>
 ) {
     fun createNewUser(): MutableList<String> {
     print("Введите имя нового пользователя: ")
