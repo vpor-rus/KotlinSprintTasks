@@ -20,57 +20,16 @@ package org.example.lesson_11
 
 fun main() {
 
-    val fisherman1 = UserForum(
-        userId = 1,
-        userName = "fisherman1",
-        onlain = true,
-    )
-
-    val fisherman2 = UserForum(
-        userId = 2,
-        userName = "fisherman2",
-        onlain = true,
-    )
-
-    val fisherman3 = UserForum(
-        userId = 3,
-        userName = "fisherman3",
-        onlain = false,
-    )
-
-    val fisherman4 = UserForum(
-        userId = 4,
-        userName = "fisherman4",
-        onlain = false,
-    )
-
-    val sakhRiver = Forum(
-        membersForum = mutableListOf(fisherman1, fisherman2, fisherman3),
-    )
-
-    print(sakhRiver)
-
 }
 
-class MessageForum(
-    val message: String,
-)
-
-class UserForum(
-   val userId: Int,
-   val userName: String,
-   val onlain: Boolean = false,
-)
-
-class Forum(
-    val membersForum: MutableList<UserForum>
-) {
-    fun createNewUser(): MutableList<UserForum> {
-    print("Введите имя нового пользователя: ")
-   // membersForum.add(element = UserForum)
-    print("В форум добавлен новый участник.")
-        return membersForum
-    }
+class MessageForum {
+    var message = readln()
 }
+
+class UserInForum(
+    val userName: String,
+)
+
+
 
 
