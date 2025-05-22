@@ -35,11 +35,20 @@ fun main() {
     val fisherman3 = UserForum(
         userId = 3,
         userName = "fisherman3",
-        onlain = false
+        onlain = false,
+    )
+
+    val fisherman4 = UserForum(
+        userId = 4,
+        userName = "fisherman4",
+        onlain = false,
     )
 
     val sakhRiver = Forum(
-)
+        membersForum = mutableListOf(fisherman1, fisherman2, fisherman3),
+    )
+
+    print(sakhRiver)
 
 }
 
@@ -56,10 +65,12 @@ class UserForum(
 class Forum(
     val membersForum: MutableList<UserForum>
 ) {
-    fun createNewUser(): MutableList<String> {
+    fun createNewUser(): MutableList<UserForum> {
     print("Введите имя нового пользователя: ")
-    membersForum.add(element = UserForum)
+   // membersForum.add(element = UserForum)
     print("В форум добавлен новый участник.")
         return membersForum
     }
 }
+
+
