@@ -19,8 +19,8 @@ package org.example.lesson_11
 каждого пользователя.*/
 
 fun main() {
-val sakhRiver: Forum(
-    val
+val sakhRiver = Forum(
+    membersForum = listFishermen<String>
 )
 
 }
