@@ -23,21 +23,20 @@ fun main() {
 }
 
 class MessageForum(
-    autorId: Int,
-    message: String,
+    val message: String,
 )
 
 class UserForum(
-    userId: Int,
-    userName: String,
+   val userId: Int,
+   val userName: String,
+   val onlain: Boolean = false,
 )
 
 class Forum(
-    val userForum: MutableList<UserForum>,
+   val userForum: MutableList<UserForum>,
 ) {
-    fun createNewUser(userName: String) {
-        print("Введите имя нового пользователя: ")
-        val _userName = readln()
-        userForum.add(_userName)
-    }
+    fun createNewUser(userForum: Forum, userName: String):  {
+    print("Введите имя нового пользователя: ")
+    userForum
+    print("В форум добавлен новый участник.")
 }
