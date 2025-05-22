@@ -19,8 +19,26 @@ package org.example.lesson_11
 каждого пользователя.*/
 
 fun main() {
-val sakhRiver = Forum(
-    membersForum = listFishermen<String>
+
+    val fisherman1 = UserForum(
+        userId = 1,
+        userName = "fisherman1",
+        onlain = true,
+    )
+
+    val fisherman2 = UserForum(
+        userId = 2,
+        userName = "fisherman2",
+        onlain = true,
+    )
+
+    val fisherman3 = UserForum(
+        userId = 3,
+        userName = "fisherman3",
+        onlain = false
+    )
+
+    val sakhRiver = Forum(
 )
 
 }
@@ -36,7 +54,9 @@ class UserForum(
 )
 
 class Forum(
-    val membersForum: MutableList<UserForum>,
+    val membersForum: UserForum,
+    fisherman2: UserForum,
+    fisherman3: UserForum,
 ) {
     fun createNewUser(): MutableList<String> {
     print("Введите имя нового пользователя: ")
