@@ -18,5 +18,32 @@ package org.example.lesson_12
 В этой задаче используй пустой конструктор.*/
 
 fun main() {
+    val mondayWeather = WeatherDay()
+    val tuesdayWeather = WeatherDay()
 
+    println(mondayWeather.dayTimeTemperature)
+    println(mondayWeather.nightTemperature)
+    println(mondayWeather.precipitation)
+
+    mondayWeather.dayTimeTemperature = 6
+    mondayWeather.nightTemperature = -3
+    mondayWeather.precipitation = false
+
+    println(mondayWeather.dayTimeTemperature)
+    println(mondayWeather.nightTemperature)
+    println(mondayWeather.precipitation)
+
+    tuesdayWeather.dayTimeTemperature = 10
+    tuesdayWeather.nightTemperature = 0
+
+    println(tuesdayWeather.dayTimeTemperature)
+    println(tuesdayWeather.nightTemperature)
+    println(tuesdayWeather.precipitation)
+
+}
+
+class WeatherDay {
+    var dayTimeTemperature = 1
+    var nightTemperature = -3
+    var precipitation = true
 }
