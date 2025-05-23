@@ -13,7 +13,8 @@ package org.example.lesson_12
 Cоздай объект с произвольными данными и выведи в консоль методом созданного класса.*/
 
 fun main() {
-
+ val tursdayWeather = WeatherDailys(
+ )
 }
 
 class WeatherDailys {
