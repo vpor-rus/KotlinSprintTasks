@@ -22,13 +22,13 @@ fun main() {
 
 }
 
-class MessageForum {
-    var message = readln()
-}
+class MessageForum(val autorId: Int, val message: String)
 
-class UserInForum(
-    val userName: String,
-)
+class UserInForum(val userId: Int, val userName: Int)
+
+class Forum(_messageForum: MessageForum, _userInForum: UserInForum) {
+
+}
 
 
 
