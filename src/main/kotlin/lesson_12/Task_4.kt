@@ -1,6 +1,6 @@
 package org.example.lesson_12
 
-/*Измени программу таким образом, чтобы информация о погоде выводилась в консоль сразу при создании объекта.*/
+/*Измени программу таким образом, чтобы информация о погоде выводилась в консоль сразу при создании объекта.
 
 fun main() {
 val tursdayWeather = DailyTemperature(
@@ -24,3 +24,4 @@ fun kelvinToCelsium(temperatureKelvin: Int): Int {
 }
 
 const val KELVIN_TO_CELSIUM = 275
+ */
