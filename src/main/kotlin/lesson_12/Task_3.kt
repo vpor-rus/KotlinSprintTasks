@@ -11,3 +11,13 @@ package org.example.lesson_12
 возвращаются данные в Цельсиях.
 
 Cоздай объект с произвольными данными и выведи в консоль методом созданного класса.*/
+
+fun main() {
+
+}
+
+class WeatherDailys(
+    var dayTimeTemperature: Int,
+    var nightTemperature: Int,
+    var precipitation: Boolean,
+)
