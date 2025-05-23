@@ -16,8 +16,8 @@ package org.example.lesson_12
 
 fun main() {
     val diurnalTemperatureDay = 270 .. 315
-    val numberInSeptember = 1..30
-    for (i in numberInSeptember) {
+    val numberInSeptember = 30
+    while (numberInSeptember > 0) {
 
     }
 }
