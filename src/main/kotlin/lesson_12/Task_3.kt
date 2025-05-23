@@ -13,19 +13,21 @@ package org.example.lesson_12
 Cоздай объект с произвольными данными и выведи в консоль методом созданного класса.*/
 
 fun main() {
- val tursdayWeather = WeatherDailys(
- )
-}
+     val tursdayWeather = WeatherDailys(
+         dayTimeTemperature = 300,
+         nightTemperature = 278,
+         precipitation = true,
+     )
+    val existDayTemperature = celsiumTemperature(tursdayWeather.dayTimeTemperature)
+    println(existDayTemperature)
+    val existNightTemperature = celsiumTemperature(tursdayWeather.nightTemperature)
+    println(existNightTemperature)
+ }
 
-class WeatherDailys {
-    var dayTimeTemperature = 300
-    var nightTemperature = 276
-    var precipitation = false
-}
+class WeatherDailys(var dayTimeTemperature: Int, var nightTemperature: Int, var precipitation: Boolean)
 
-fun formatKelvinToCelsius (_temperature: Int): Int {
-    val temperatureKelvin = _temperature
-    val temperatureCelcium = temperatureKelvin - KELVIN_TO_CELSIUM
+fun celsiumTemperature(_temperature: Int): Int {
+    val temperatureCelcium = _temperature - KELVIN_TO_CELSIUM
     return temperatureCelcium
 }
 
