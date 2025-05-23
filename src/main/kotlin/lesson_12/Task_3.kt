@@ -16,8 +16,16 @@ fun main() {
 
 }
 
-class WeatherDailys(
-    var dayTimeTemperature: Int,
-    var nightTemperature: Int,
-    var precipitation: Boolean,
-)
+class WeatherDailys {
+    var dayTimeTemperature = 300
+    var nightTemperature = 276
+    var precipitation = false
+}
+
+fun formatKelvinToCelsius (_temperature: Int): Int {
+    val temperatureKelvin = _temperature
+    val temperatureCelcium = temperatureKelvin - KELVIN_TO_CELSIUM
+    return temperatureCelcium
+}
+
+const val KELVIN_TO_CELSIUM = 275
