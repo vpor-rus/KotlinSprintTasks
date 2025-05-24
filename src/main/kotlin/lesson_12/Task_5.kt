@@ -19,11 +19,10 @@ import kotlin.random.Random
 fun main() {
 
     var listForecastMonth = mutableListOf<Int>(0, 0, 0)
+    val
     for (i in 1..30) {
         val dailyForecast = diurnalWeather()
-        val listForecastOnDay = mutableListOf(dailyForecast.dayTemperature,
-                                              dailyForecast.nightPrecipitation,
-                                              dailyForecast.precipitation)
+        te
 
     }
 
