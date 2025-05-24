@@ -1,5 +1,7 @@
 package org.example.lesson_12
 
+import kotlin.random.Random
+
 /*Продолжи усовершенствовать программу, теперь она должна рассчитывать средние значения температур
 и считать количество дней с осадками за месяц.
 
@@ -15,17 +17,28 @@ package org.example.lesson_12
 Выведи результаты в консоль.*/
 
 fun main() {
-    val diurnalTemperatureDay = 270 .. 315
-    val numberInSeptember = 30
-    while (numberInSeptember > 0) {
+
+    var listForecastMonth = mutableListOf<Int>(0, 0, 0)
+    for (i in 1..30) {
+        val dailyForecast = diurnalWeather()
+        val listForecastOnDay = mutableListOf(dailyForecast.dayTemperature,
+                                              dailyForecast.nightPrecipitation,
+                                              dailyForecast.precipitation)
 
     }
+
+    println(listForecastMonth.joinToString())
+
+
+
 }
 
-class diurnalWeather(_dayTemperature: Int, _nightTemperature: Int, _precipitation: Boolean = false,) {
-    val dayTemperature = _dayTemperature
-    val nightPrecipitation = _nightTemperature
-    val precipitation = _precipitation
+class diurnalWeather(
+    val dayTemperature: Int = Random.nextInt(270, 310),
+    val nightPrecipitation: Int = Random.nextInt(260, 290),
+    val precipitation: Int = Random.nextInt(0,1),
+    ) {
+
 }
 
 fun KelvinToCelcium(temperatureToKelvin: Int): Int {
